@@ -1,0 +1,486 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+/* Global CSS Start */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  background: #f6f6f6;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* 
+  Global CSS End */
+
+/* 
+Header CSS Start */
+.main-navbar ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.main-navbar ul li {
+  position: relative;
+}
+.main-navbar ul li a {
+  font-size: 1rem;
+  padding: 10px;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.main-navbar ul li a.active {
+  border-bottom: 1px solid #000;
+}
+.main-navbar ul li a:hover {
+  color: #467e66;
+  cursor: pointer;
+}
+
+.site-header .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.close-icon {
+  display: none;
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 90;
+}
+.fixed-header {
+  background-color: #fffcfc;
+}
+.desktop-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.menu-icon {
+  display: none;
+  color: #000;
+  width: 30px;
+  height: 30px;
+}
+
+/* .dropdown li {
+  text-align: left;
+}
+.dropdown {
+  background: aliceblue;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 150px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s opacity ease-in-out;
+}
+.dropdown li {
+  width: 100%;
+  color: #fffcfc;
+}
+.dropdown li a {
+  color: #fffcfc;
+  width: 100%;
+}
+.main-navbar ul li:hover .dropdown {
+  opacity: 1;
+  visibility: visible;
+} */
+.logo img {
+  width: 90px;
+}
+/* Header CSS End */
+
+/* Banner Section CSS Start */
+.banner {
+  position: relative;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  opacity: 0.8;
+}
+.banner-text h1 span {
+  font-size: 60px;
+  color: #fff;
+}
+.banner-text h1 {
+  font-size: 35px;
+  max-width: 1054px;
+  margin: 15px auto;
+  color: #fff;
+}
+/* Banner Section  CSS Start */
+
+/* Home Intro CSS Start */
+.home-intro {
+  padding: 30px 0;
+  text-align: center;
+}
+.home-wrapper p {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Home Intro CSS Start */
+
+/* Home Cards CSS Start */
+
+.home-cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.home-card {
+  width: 30%;
+  text-align: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: 20px auto;
+}
+.home-card-image img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  transition: all 0.4s ease-in;
+
+  object-fit: cover;
+}
+.home-card-image {
+  overflow: hidden;
+  height: 200px;
+}
+.home-card-image img:hover {
+  transform: scale(1.3);
+}
+.card-content {
+  padding: 10px 0;
+  margin: 0 auto;
+  background-color: #d3eed8;
+}
+.card-content a {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+}
+.card-content h3 {
+  color: #254336;
+}
+
+/* Home Cards CSS End*/
+
+#counter {
+  max-width: 2560px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background: #d3eed8;
+  padding: 30px 0px;
+  width: 100%;
+}
+#counter .item {
+  background: #254336;
+  width: 20%;
+  padding: 35px 40px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 38px -8px rgba(0, 0, 0, 0.34);
+  -moz-box-shadow: 0px 0px 38px -8px rgba(0, 0, 0, 0.34);
+  box-shadow: 0px 0px 38px -8px rgba(0, 0, 0, 0.34);
+}
+#counter .item .count {
+  color: #fffcfc;
+  margin-bottom: 5px;
+  font-size: 40px;
+}
+#counter .item h3 {
+  color: #fffcfc;
+  text-transform: uppercase;
+}
+#counter .item i {
+  font-size: 30px;
+  color: #fffcfc;
+  margin-bottom: 10px;
+}
+
+/* What to Expect Section CSS Start */
+section.home-expect {
+  padding: 40px 0;
+}
+.home-expect-container h3 {
+  margin-bottom: 15px;
+}
+.home-expect-container p,
+.home-expect-container ul li {
+  margin-bottom: 15px;
+}
+
+.heading-like {
+  font-weight: 700;
+}
+/* What to Expect Section CSS End */
+
+/* Disclaimer Section CSS Start */
+.disclaimer {
+  padding: 0px 0px 40px 0;
+}
+.disclaimer-wrapper h3 {
+  margin-bottom: 10px;
+}
+/* Disclaimer Section CSS End */
+
+/* Footer CSS Start */
+.footer {
+  background: #254336;
+  padding: 30px 10px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer-icons {
+  text-align: center;
+  margin-top: 15px;
+}
+.footer-items h3 {
+  color: #000;
+}
+.footer-icons i {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 16px;
+  color: #fffcfc;
+  background: #06663d;
+  line-height: 30px;
+  margin: 0 5px;
+}
+.footer-links ul {
+  margin-top: 15px;
+}
+.footer-links ul li {
+  padding: 5px 0px;
+}
+.footer-links ul li a {
+  color: #fffcfc;
+  cursor: pointer;
+}
+.logo-bottom img {
+  width: 100px;
+}
+/* Footer CSS End */
+
+/* Pages CSS Start */
+/* Common Page CSS Start */
+
+.pages-slider-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.commonpage-intro {
+  padding: 50px 0;
+  max-width: 1000px;
+  margin: 0px auto;
+  text-align: center;
+}
+.commonpage-intro-container h1 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #06663d;
+}
+
+.common-page-cards-description {
+  padding: 40px 0;
+}
+.common-page-card-description {
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin-bottom: 25px;
+  border-radius: 17px;
+}
+.common-page-card-description h3 {
+  margin-bottom: 10px;
+}
+.common-page-card-description p {
+  margin-bottom: 10px;
+}
+.common-page-card-description ul li {
+  margin-bottom: 10px;
+  list-style: circle;
+  margin-left: 16px;
+}
+
+.pages-card-content a {
+  display: inline-block;
+  font-weight: 600;
+}
+
+/* Common Page CSS Start */
+/* Pages CSS Start */
+
+/* Slick Slider CSS Start */
+
+.slick-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-slider-content {
+  height: 600px;
+}
+.pages-slider-content {
+  height: 450px;
+}
+
+.slick-prev {
+  left: 0;
+  display: none;
+}
+.slick-next {
+  right: 0;
+  display: none;
+}
+.slick-prev:before,
+.slick-next:before {
+  opacity: 0;
+}
+
+/* Slick Slider CSS End */
+
+
+
+
+.pages-card {
+  display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+ justify-content: center;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  /* padding: 15px 0; */
+  /* background: #d3eed8; */
+  width: 95%;
+  margin: 0 auto 25px auto;
+}
+
+.pages-card-image-btn{
+  height: 400px;
+  width: 100%;
+}
+.pages-card-image-btn img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.pages-card-content{
+  padding: 15px;
+}
+.pages-card-content h3, .pages-card-content p, .pages-card-content ul li {
+  margin-bottom: 15px;
+  line-height: 1.3;
+}
+.pages-card-content ul li{
+  list-style-type:circle;
+  margin-left: 18px;
+}
+ .pages-card-content .heading-like{                           /*Only for Pages  */
+  margin-right: 5px;
+}
+
+.pages-card-image-btn {
+  overflow: hidden;
+}
+.pages-card-image img {
+  transition: 0.4s all ease-in-out;
+}
+.pages-card-image img:hover {
+  transform: scale(1.3);
+}
+#page-card-review {
+  width: 70%;
+  height: 70px;
+  resize: none;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 10px;
+}
+.pages-card-image-link a {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+    background-color: #254336;
+  padding: 10px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 15px auto;
+}
