@@ -413,7 +413,7 @@ section.disclaimer {
 
 /* About Us Page CSS Start */
 .about-us {
-  padding: 40px 10px;
+  padding: 40px 1px;
 }
 .about-us-wrapper h1 {
   margin-bottom: 15px;
@@ -631,6 +631,7 @@ section.disclaimer {
   display: flex;
   margin-bottom: 30px;
   border-radius: 10px;
+  flex-wrap: wrap;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
 }
