@@ -88,6 +88,7 @@
   .main-navbar ul li a {
     color: #fff;
     text-align: left;
+    font-size: 12px;
   }
 
   .menuToggle .main-navbar {
@@ -285,7 +286,7 @@
   }
   .about-us-group-image img {
     height: 200px;
-}
+  }
 }
 @media screen and (max-width: 480px) {
   .banner-text h1 span {
@@ -387,11 +388,11 @@
   }
   .about-us-group-image img {
     height: 160px;
-}
-.about-us-wrapper p {
-  font-size: 12px;
-}
-.about-us-wrapper p {
-  margin: 7px 0;
-}
+  }
+  .about-us-wrapper p {
+    font-size: 12px;
+  }
+  .about-us-wrapper p {
+    margin: 7px 0;
+  }
 }
