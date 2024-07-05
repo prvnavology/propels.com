@@ -153,8 +153,7 @@ Header CSS Start */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
-  opacity: 0.8;
+  background-color: #0000006e;
 }
 .banner-text h1 span {
   font-size: 60px;
