@@ -137,7 +137,7 @@ Header CSS Start */
   visibility: visible;
 } */
 .logo img {
-  width: 90px;
+  width: 80px;
 }
 /* Header CSS End */
 
@@ -156,7 +156,7 @@ Header CSS Start */
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #0000006e;
+  background-color: #0000007d;
 }
 .banner-text h1 span {
   font-size: 60px;
@@ -165,7 +165,7 @@ Header CSS Start */
   font-weight: 700;
 }
 .banner-text h1 {
-  font-size: 20px;
+  font-size: 30px;
   max-width: 700px;
   margin: 15px auto;
   color: #fff;
@@ -184,6 +184,7 @@ Header CSS Start */
   max-width: 1000px;
   margin: 0 auto;
   font-weight: 500;
+  color: #545556;
 }
 /* Home Intro CSS Start */
 
@@ -284,6 +285,7 @@ section.home-expect {
 .home-expect-container ul li {
   margin-bottom: 12px;
   font-weight: 500;
+  color: #545556;
 }
 .home-expect-container ul li {
   list-style-type: disc;
@@ -291,6 +293,7 @@ section.home-expect {
 }
 .heading-like {
   font-weight: 700;
+  color: #000;
 }
 /* What to Expect Section CSS End */
 
@@ -301,6 +304,13 @@ section.disclaimer {
 }
 .disclaimer-wrapper h3 {
   margin-bottom: 10px;
+}
+.disclaimer-wrapper {
+  text-align: center;
+} 
+.disclaimer-wrapper p {
+  font-size: 15px;
+  color: #545556;
 }
 /* Disclaimer Section CSS End */
 
@@ -344,7 +354,7 @@ section.disclaimer {
   font-weight: 500;
 }
 .logo-bottom img {
-  width: 100px;
+  width: 80px;
 }
 /* Footer CSS End */
 
@@ -365,6 +375,10 @@ section.disclaimer {
   margin-bottom: 15px;
   color: #06663d;
 }
+.commonpage-intro-container p {
+  color: #545556;
+  font-size: 15px;
+}
 
 .pages-card-content a {
   display: inline-block;
@@ -378,7 +392,7 @@ section.disclaimer {
   color: #545556;
 }
 .pages-cards {
-  padding: 70px 0;
+  padding: 20px 0;
 }
 .pages-card:nth-child(even) {
   flex-direction: row-reverse;
@@ -397,38 +411,57 @@ section.disclaimer {
 
 /* About Us Page CSS Start */
 .about-us {
-  padding: 70px 10px;
+  padding: 40px 10px;
 }
 .about-us-wrapper h1 {
   margin-bottom: 15px;
 }
 .about-us-wrapper p {
-  line-height: 1.5;
+  line-height: 1.2;
   margin-bottom: 12px;
 }
 
-.about-us-wrapper h3 {
-  margin-bottom: 15px;
+.about-us-wrapper h3, 
+.about-us-wrapper h2,
+.about-us-wrapper h1{
+  margin-bottom: 12px;
+  color: #000;
+}
+.about-us-wrapper p {
+  color: #545556;
+  font-size: 14px;
+  line-height: 1.3;
+  margin-bottom: 10px;
 }
 .about-us ul li {
   list-style: disc;
   margin-left: 15px;
+  font-size: 14px;
 }
 
 /* About Us Page CSS End */
 
 /* Terms and Conditions CSS Start */
 .terms-conditions {
-  padding: 70px 10px;
+  padding: 50px 10px;
 }
-.terms-conditions h1,
+
 .terms-conditions h3,
-.terms-conditions h4,
-.terms-conditions p {
-  margin-bottom: 15px;
+.terms-conditions h4
+ {
+  margin-bottom: 5px;
 }
+.terms-conditions h1{
+  margin-bottom:15px;
+  text-align: center;
+  font-size: 30px;
+}
+
 .terms-conditions p {
-  line-height: 1.5;
+  line-height: 1.3;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #545556;
 }
 .terms-conditions ul li {
   list-style: disc;
@@ -448,6 +481,7 @@ section.disclaimer {
 }
 .privacy-wrapper p {
   line-height: 1.5;
+  color: #545556;
 }
 .privacy-wrapper ul li {
   list-style-type: disc;
@@ -500,7 +534,8 @@ section.disclaimer {
 .pages-card-content {
   padding: 15px;
 }
- .pages-card-content > p, .pages-card-content > ul li {
+.pages-card-content > p,
+.pages-card-content > ul li {
   margin-bottom: 15px;
   line-height: 1.3;
   color: #545556;
@@ -516,7 +551,8 @@ section.disclaimer {
   font-weight: 500;
   color: #545556;
 }
- .pages-card-content .heading-like {                      /* Only for CSS */
+.pages-card-content .heading-like {
+  /* Only for CSS */
   margin-right: 5px;
   color: #000;
 }
@@ -528,7 +564,7 @@ section.disclaimer {
   transition: 0.4s all ease-in-out;
 }
 .pages-card-image img:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
 }
 #page-card-review {
   width: 70%;
@@ -537,6 +573,7 @@ section.disclaimer {
   padding: 10px 15px;
   outline: none;
   border-radius: 10px;
+  color: #545556;
 }
 .pages-card-image-link a {
   display: inline-block;
@@ -586,3 +623,27 @@ section.disclaimer {
 }
 
 /* Card Setting CSS End*/
+
+.about-us-group-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+.about-us-group-image {
+  width: 40%;
+}
+.about-us-group-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-us-group-content {
+  width: 60%;
+  padding: 20px 25px;
+  color: #545556;
+}
+.about-us-group-wrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
