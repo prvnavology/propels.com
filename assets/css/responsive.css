@@ -1,5 +1,7 @@
 @media screen and (max-width: 1200px) {
-
+  .pages-card-image-link a {
+    width: 25%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -43,6 +45,16 @@
   .footer-links ul li a {
     font-size: 15px;
     font-weight: 500;
+  }
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 14px;
+  }
+  .page-card-content-c1 p {
+    font-size: 14px;
+  }
+  .pages-card-image-link a {
+    width: 31%;
   }
 }
 
@@ -149,6 +161,26 @@
     max-width: 550px;
     margin: 0 auto;
   }
+  /* Pages CSS Start */
+  .pages-card-items {
+    width: 100%;
+  }
+  .pages-card-image img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 14px;
+  }
+  .commonpage-intro {
+    padding: 40px 0;
+  }
+  .pages-card-image-link a {
+    width: 30%;
+  }
+
+  /* Pages CSS End */
 }
 
 @media screen and (max-width: 575px) {
@@ -159,7 +191,7 @@
     font-size: 18px;
   }
   .banner-slider-content {
-    height: 350px;
+    height: 300px;
   }
   .home-intro {
     padding: 40px 0;
@@ -201,6 +233,9 @@
   .footer {
     padding: 40px 5px;
   }
+  .logo img {
+    width: 70px;
+  }
 
   .footer-items {
     width: 100%;
@@ -210,6 +245,30 @@
   }
   .home-card {
     width: 100%;
+  }
+  .commonpage-intro-container p {
+    font-size: 13px;
+  }
+
+  .pages-card-image img {
+    height: 240px;
+  }
+  #page-card-review {
+    width: 90%;
+  }
+  .pages-card-content > h3 {
+    font-size: 22px;
+  }
+  .pages-card-content ul li {
+    font-size: 13px;
+  }
+
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 13px;
+  }
+  .page-card-content-c1 p {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -246,7 +305,7 @@
     width: 65px;
   }
   .logo img {
-    width: 65px;
+    width: 60px;
   }
   #counter .item .count {
     font-size: 25px;
@@ -284,6 +343,30 @@
   }
   .footer-links ul li a {
     font-weight: 600;
+    font-size: 12px;
+  }
+
+  .pages-card-image img {
+    height: 180px;
+  }
+  #page-card-review {
+    width: 90%;
+  }
+  .pages-card-image-link a {
+    width: 60%;
+  }
+  .pages-card-content > h3 {
+    font-size: 19px;
+  }
+  .pages-card-content ul li {
+    font-size: 12px;
+  }
+
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 12px;
+  }
+  .page-card-content-c1 p {
     font-size: 12px;
   }
 }
