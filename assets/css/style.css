@@ -111,7 +111,6 @@ Header CSS Start */
   text-align: right;
 }
 
-
 /* .dropdown li {
   text-align: left;
 }
@@ -309,7 +308,7 @@ section.disclaimer {
 }
 .disclaimer-wrapper {
   text-align: center;
-} 
+}
 .disclaimer-wrapper p {
   font-size: 15px;
   color: #545556;
@@ -410,6 +409,36 @@ section.disclaimer {
   margin: 15px auto;
   font-weight: 600;
 }
+.pages-card {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pages-card-image {
+  width: 40%;
+}
+.pages-card-image-content ul li {
+  padding: 5px 0;
+}
+.pages-card-image-content ul {
+  margin-bottom: 30px;
+}
+.pages-card-content {
+  padding: 25px;
+  width: 60%;
+  font-size: 15px;
+}
+#page-card-review {
+  width: 50%;
+  height: 70px;
+  resize: none;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
+}
 
 /* About Us Page CSS Start */
 .about-us {
@@ -423,9 +452,9 @@ section.disclaimer {
   margin-bottom: 12px;
 }
 
-.about-us-wrapper h3, 
+.about-us-wrapper h3,
 .about-us-wrapper h2,
-.about-us-wrapper h1{
+.about-us-wrapper h1 {
   margin-bottom: 12px;
   color: #000;
 }
@@ -440,7 +469,30 @@ section.disclaimer {
   margin-left: 15px;
   font-size: 14px;
 }
-
+.about-us-group-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+.about-us-group-image {
+  width: 40%;
+}
+.about-us-group-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-us-group-content {
+  width: 60%;
+  padding: 20px 25px;
+  color: #545556;
+}
+.about-us-group-wrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
 /* About Us Page CSS End */
 
 /* Terms and Conditions CSS Start */
@@ -449,12 +501,11 @@ section.disclaimer {
 }
 
 .terms-conditions h3,
-.terms-conditions h4
- {
+.terms-conditions h4 {
   margin-bottom: 5px;
 }
-.terms-conditions h1{
-  margin-bottom:15px;
+.terms-conditions h1 {
+  margin-bottom: 15px;
   text-align: center;
   font-size: 30px;
 }
@@ -490,7 +541,6 @@ section.disclaimer {
   margin-left: 15px;
 }
 
-
 /* Privacy Policy CSS Start */
 
 /* Pages CSS Start here */
@@ -522,8 +572,9 @@ section.disclaimer {
 .slick-next:before {
   opacity: 0;
 }
-
 /* Slick Slider CSS End */
+
+
 
 .pages-card-image-btn {
   height: 100%;
@@ -559,7 +610,6 @@ section.disclaimer {
   margin-right: 5px;
   color: #000;
 }
-
 .pages-card-image-btn {
   overflow: hidden;
 }
@@ -586,68 +636,4 @@ section.disclaimer {
   border-radius: 10px;
   color: #fff;
   margin: 15px auto;
-}
-
-/* Card Setting CSS Start */
-.pages-card {
-  display: flex;
-  flex-wrap: wrap;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin-bottom: 45px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.pages-card-image {
-  width: 40%;
-}
-
-/* .pages-card-image-content h2 {
-  margin-bottom: 30px;
-  font-size: 35px;
-} */
-.pages-card-image-content ul li {
-  padding: 5px 0;
-}
-.pages-card-image-content ul {
-  margin-bottom: 30px;
-}
-.pages-card-content {
-  padding: 25px;
-  width: 60%;
-  font-size: 15px;
-}
-#page-card-review {
-  width: 50%;
-  height: 70px;
-  resize: none;
-  padding: 10px 15px;
-  outline: none;
-  border-radius: 5px;
-}
-
-/* Card Setting CSS End*/
-
-.about-us-group-wrapper {
-  display: flex;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  flex-wrap: wrap;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  overflow: hidden;
-}
-.about-us-group-image {
-  width: 40%;
-}
-.about-us-group-image img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
-.about-us-group-content {
-  width: 60%;
-  padding: 20px 25px;
-  color: #545556;
-}
-.about-us-group-wrapper:nth-child(even) {
-  flex-direction: row-reverse;
 }
