@@ -65,9 +65,10 @@ Header CSS Start */
   padding: 10px;
   display: inline-block;
   font-weight: 500;
+  color: #545556;
 }
 .main-navbar ul li a.active {
-  border-bottom: 1px solid #000;
+  border-bottom: 2px solid #000;
   color: #467e66;
 }
 .main-navbar ul li a:hover {
