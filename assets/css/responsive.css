@@ -179,6 +179,19 @@
   .pages-card-image-link a {
     width: 30%;
   }
+  .about-us-group-image {
+    width: 100%;
+  }
+  .about-us-group-content {
+    width: 100%;
+  }
+  .about-us-group-image img {
+    height: 250px;
+  }
+  .about-us-wrapper p {
+    max-width: 660px;
+    margin: 15px 0;
+  }
 
   /* Pages CSS End */
 }
@@ -270,6 +283,9 @@
   .page-card-content-c1 p {
     font-size: 13px;
   }
+  .about-us-group-image img {
+    height: 200px;
+}
 }
 @media screen and (max-width: 480px) {
   .banner-text h1 span {
@@ -369,4 +385,13 @@
   .page-card-content-c1 p {
     font-size: 12px;
   }
+  .about-us-group-image img {
+    height: 160px;
+}
+.about-us-wrapper p {
+  font-size: 12px;
+}
+.about-us-wrapper p {
+  margin: 7px 0;
+}
 }
