@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 /* Global CSS Start */
 
 * {
@@ -20,7 +20,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
-p{
+p {
   font-weight: 500;
 }
 
@@ -66,9 +66,9 @@ Header CSS Start */
   display: inline-block;
   font-weight: 500;
 }
-
 .main-navbar ul li a.active {
   border-bottom: 1px solid #000;
+  color: #467e66;
 }
 .main-navbar ul li a:hover {
   color: #467e66;
@@ -178,13 +178,12 @@ Header CSS Start */
 .home-intro {
   padding: 50px 0;
   text-align: center;
-  background: #C7FCEC;
+  background: #c7fcec;
 }
 .home-wrapper p {
   max-width: 1000px;
   margin: 0 auto;
   font-weight: 500;
-  background-color: ;
 }
 /* Home Intro CSS Start */
 
@@ -244,12 +243,12 @@ Header CSS Start */
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background: #CFFBE2;
+  background: #cffbe2;
   padding: 70px 0px;
   width: 100%;
 }
 #counter .item {
-  background: #00A189;
+  background: #00a189;
   width: 20%;
   padding: 35px 40px;
   margin: 10px;
@@ -307,9 +306,8 @@ section.disclaimer {
 
 /* Footer CSS Start */
 .footer {
-  background: #C7FCEC;
-  padding: 70px 5px;
-  
+  background: #c7fcec;
+  padding: 50px 5px;
 }
 .footer-wrapper {
   display: flex;
@@ -338,7 +336,7 @@ section.disclaimer {
   margin-top: 15px;
 }
 .footer-links ul li {
-  padding: 5px 0px;
+  padding: 3px 0px;
 }
 .footer-links ul li a {
   color: #000;
@@ -372,14 +370,29 @@ section.disclaimer {
   display: inline-block;
   font-weight: 600;
 }
-.page-card-content-c1  {
-  margin:20px 0;
+.page-card-content-c1 {
+  margin: 20px 0;
 }
 .page-card-content-c1 p {
   margin-bottom: 5px;
+  color: #545556;
 }
 .pages-cards {
   padding: 70px 0;
+}
+.pages-card:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.pages-card-image-link a {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  background-color: #36b67f;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 15px auto;
+  font-weight: 600;
 }
 
 /* About Us Page CSS Start */
@@ -475,16 +488,6 @@ section.disclaimer {
 
 /* Slick Slider CSS End */
 
-/* .pages-card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 95%;
-  margin: 0 auto 30px auto;
-} */
-
 .pages-card-image-btn {
   height: 100%;
   width: 100%;
@@ -497,20 +500,25 @@ section.disclaimer {
 .pages-card-content {
   padding: 15px;
 }
-.pages-card-content>h3,
-.pages-card-content>p,
-.pages-card-content>ul li {
+ .pages-card-content > p, .pages-card-content > ul li {
   margin-bottom: 15px;
   line-height: 1.3;
+  color: #545556;
+}
+.pages-card-content > h3 {
+  margin-bottom: 15px;
+  font-size: 25px;
 }
 .pages-card-content ul li {
-  list-style-type: circle;
+  list-style-type: disc;
   margin-left: 18px;
   margin-bottom: 5px;
+  font-weight: 500;
+  color: #545556;
 }
-.pages-card-content .heading-like {
-  /*Only for Pages  */
+ .pages-card-content .heading-like {                      /* Only for CSS */
   margin-right: 5px;
+  color: #000;
 }
 
 .pages-card-image-btn {
@@ -533,8 +541,7 @@ section.disclaimer {
 .pages-card-image-link a {
   display: inline-block;
   width: 20%;
-
-  background-color: #254336;
+  background-color: #36b67f;
   padding: 10px;
   border-radius: 10px;
   color: #fff;
@@ -545,48 +552,19 @@ section.disclaimer {
 .pages-card {
   display: flex;
   flex-wrap: wrap;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  margin-bottom: 30px;
-  border-radius: 15px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 45px;
+  border-radius: 10px;
   overflow: hidden;
 }
 .pages-card-image {
   width: 40%;
-  position: relative;
 }
 
-.pages-card-image-content {
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
-  background: #000000ab;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  flex-direction: column;
-}
-.pages-card-image-content ul li{
-  text-align: center;
-}
-.pages-card-image-link a {
-  display: inline-block;
-  width: 30%;
-  text-align: center;
-  background-color: #36b67f;
-  padding: 10px 20px;
-  border-radius: 10px;
-  color: #fff;
-  margin: 15px auto;
-  font-weight: 600;
-}
-.pages-card-image-content h2 {
+/* .pages-card-image-content h2 {
   margin-bottom: 30px;
   font-size: 35px;
-}
+} */
 .pages-card-image-content ul li {
   padding: 5px 0;
 }
@@ -594,7 +572,7 @@ section.disclaimer {
   margin-bottom: 30px;
 }
 .pages-card-content {
-  padding: 15px;
+  padding: 25px;
   width: 60%;
   font-size: 15px;
 }
@@ -604,7 +582,7 @@ section.disclaimer {
   resize: none;
   padding: 10px 15px;
   outline: none;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 /* Card Setting CSS End*/
