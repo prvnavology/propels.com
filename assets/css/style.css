@@ -108,7 +108,9 @@ Header CSS Start */
   color: #000;
   width: 30px;
   height: 30px;
+  text-align: right;
 }
+
 
 /* .dropdown li {
   text-align: left;
@@ -245,7 +247,7 @@ Header CSS Start */
   justify-content: center;
   flex-wrap: wrap;
   background: #cffbe2;
-  padding: 70px 0px;
+  padding: 50px 0px;
   width: 100%;
 }
 #counter .item {
@@ -276,7 +278,7 @@ Header CSS Start */
 
 /* What to Expect Section CSS Start */
 section.home-expect {
-  padding: 70px 0;
+  padding: 50px 0;
 }
 .home-expect-container h3 {
   margin-bottom: 15px;
@@ -300,7 +302,7 @@ section.home-expect {
 /* Disclaimer Section CSS Start */
 section.disclaimer {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  padding: 30px 0;
+  padding: 45px 0;
 }
 .disclaimer-wrapper h3 {
   margin-bottom: 10px;
@@ -487,6 +489,7 @@ section.disclaimer {
   list-style-type: disc;
   margin-left: 15px;
 }
+
 
 /* Privacy Policy CSS Start */
 

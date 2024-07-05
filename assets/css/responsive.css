@@ -1,3 +1,53 @@
+@media screen and (max-width: 1200px) {
+  .home-wrapper p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .main-navbar ul li a {
+    font-size: 13px;
+  }
+  .banner-text h1 span {
+    font-size: 45px;
+  }
+  .banner-text h1 {
+    font-size: 25px;
+  }
+  .banner-slider-content {
+    height: 400px;
+  }
+  #counter .item .count {
+    font-size: 35px;
+  }
+  #counter .item h3 {
+    font-size: 14px;
+  }
+  .home-wrapper p {
+    font-size: 14px;
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .home-expect-container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .home-expect-container p,
+  .home-expect-container ul li {
+    font-size: 14px;
+  }
+  .disclaimer-wrapper p {
+    font-size: 14px;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  .footer-links ul li a {
+    font-size: 15px;
+    font-weight: 500;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .main-navbar ul {
     flex-direction: column;
@@ -46,12 +96,114 @@
   .home-card {
     width: 45%;
   }
+
+  .banner-text h1 span {
+    font-size: 50px;
+  }
+  .banner-text h1 {
+    font-size: 22px;
+    max-width: 465px;
+  }
+
   #counter .item {
     width: 40%;
+  }
+  .banner-slider-content {
+    height: 350px;
+  }
+  .home-page-cards {
+    padding: 40px 0;
+  }
+  .home-wrapper p {
+    font-size: 13px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #counter {
+    padding: 50px 0px;
+  }
+  #counter .item .count {
+    font-size: 30px;
+  }
+  #counter .item h3 {
+    font-size: 17px;
+  }
+  #counter .item i {
+    font-size: 25px;
+  }
+
+  .disclaimer-wrapper p {
+    font-size: 13px;
+    max-width: 570px;
+    margin: 0 auto;
+  }
+  .footer-links ul li a {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .home-expect-container p,
+  .home-expect-container ul li {
+    font-size: 13px;
+  }
+
+  .home-expect-container {
+    max-width: 550px;
+    margin: 0 auto;
   }
 }
 
 @media screen and (max-width: 575px) {
+  .banner-text h1 span {
+    font-size: 40px;
+  }
+  .banner-text h1 {
+    font-size: 18px;
+  }
+  .banner-slider-content {
+    height: 350px;
+  }
+  .home-intro {
+    padding: 40px 0;
+  }
+  .home-wrapper p {
+    font-size: 13px;
+    max-width: 470px;
+  }
+  .home-page-cards {
+    padding: 30px 0;
+  }
+  .home-card {
+    margin: 15px auto;
+  }
+  #counter .item .count {
+    font-size: 30px;
+  }
+  #counter .item i {
+    font-size: 25px;
+  }
+  #counter .item h3 {
+    font-size: 13px;
+  }
+
+  .home-expect-container p,
+  .home-expect-container ul li {
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  section.home-expect {
+    padding: 45px 0;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .footer-links ul li a {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .footer {
+    padding: 40px 5px;
+  }
+
   .footer-items {
     width: 100%;
     margin: 0 auto;
@@ -60,5 +212,80 @@
   }
   .home-card {
     width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .banner-text h1 span {
+    font-size: 30px;
+  }
+  .banner-text h1 {
+    font-size: 16px;
+  }
+  .banner-slider-content {
+    height: 300px;
+  }
+  .home-wrapper p {
+    max-width: 320px;
+    font-size: 13px;
+  }
+  .card-content h3 {
+    font-size: 16px;
+  }
+  #counter .item {
+    width: 60%;
+  }
+  .home-expect-container h3 {
+    margin-bottom: 10px;
+  }
+  .home-expect-container p,
+  .home-expect-container ul li {
+    margin-bottom: 10px;
+  }
+  .disclaimer-wrapper p {
+    font-size: 13px;
+  }
+  .logo-bottom img {
+    width: 65px;
+  }
+  .logo img {
+    width: 65px;
+  }
+  #counter .item .count {
+    font-size: 25px;
+  }
+  #counter .item h3 {
+    font-size: 16px;
+  }
+  #counter .item i {
+    font-size: 20px;
+  }
+  #counter {
+    padding: 50px 0px;
+  }
+  .home-expect-container h3 {
+    font-size: 17px;
+  }
+  .heading-like {
+    font-size: 15px;
+  }
+  .home-expect-container p,
+  .home-expect-container ul li {
+    font-size: 13px;
+  }
+  section.home-expect {
+    padding: 45px 0;
+  }
+  .footer {
+    padding: 40px 5px;
+  }
+  .footer-icons i {
+    width: 25px;
+    height: 25px;
+    font-size: 13px;
+    line-height: 25px;
+  }
+  .footer-links ul li a {
+    font-weight: 600;
+    font-size: 12px;
   }
 }
