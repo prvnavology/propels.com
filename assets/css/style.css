@@ -170,18 +170,19 @@ Header CSS Start */
 
 /* Home Intro CSS Start */
 .home-intro {
-  padding: 30px 0;
+  padding: 70px 0;
   text-align: center;
 }
 .home-wrapper p {
   max-width: 1000px;
   margin: 0 auto;
 }
-
 /* Home Intro CSS Start */
 
 /* Home Cards CSS Start */
-
+.home-page-cards {
+  padding-bottom: 70px;
+}
 .home-cards {
   display: flex;
   align-items: center;
@@ -227,9 +228,7 @@ Header CSS Start */
 .card-content h3 {
   color: #254336;
 }
-
 /* Home Cards CSS End*/
-
 #counter {
   max-width: 2560px;
   text-align: center;
@@ -238,7 +237,7 @@ Header CSS Start */
   justify-content: center;
   flex-wrap: wrap;
   background: #d3eed8;
-  padding: 30px 0px;
+  padding: 70px 0px;
   width: 100%;
 }
 #counter .item {
@@ -269,7 +268,7 @@ Header CSS Start */
 
 /* What to Expect Section CSS Start */
 section.home-expect {
-  padding: 40px 0;
+  padding: 70px 0;
 }
 .home-expect-container h3 {
   margin-bottom: 15px;
@@ -278,15 +277,18 @@ section.home-expect {
 .home-expect-container ul li {
   margin-bottom: 15px;
 }
-
+.home-expect-container ul li {
+  list-style-type: disc;
+  margin-left: 15px;
+}
 .heading-like {
   font-weight: 700;
 }
 /* What to Expect Section CSS End */
 
 /* Disclaimer Section CSS Start */
-.disclaimer {
-  padding: 0px 0px 40px 0;
+section.disclaimer {
+  padding-bottom: 70px;
 }
 .disclaimer-wrapper h3 {
   margin-bottom: 10px;
@@ -296,7 +298,7 @@ section.home-expect {
 /* Footer CSS Start */
 .footer {
   background: #254336;
-  padding: 30px 10px;
+  padding: 70px 5px;
 }
 .footer-wrapper {
   display: flex;
@@ -337,14 +339,11 @@ section.home-expect {
 /* Footer CSS End */
 
 /* Pages CSS Start */
-/* Common Page CSS Start */
-
 .pages-slider-content img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-
 .commonpage-intro {
   padding: 50px 0;
   max-width: 1000px;
@@ -357,34 +356,75 @@ section.home-expect {
   color: #06663d;
 }
 
-.common-page-cards-description {
-  padding: 40px 0;
-}
-.common-page-card-description {
-  padding: 25px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-  margin-bottom: 25px;
-  border-radius: 17px;
-}
-.common-page-card-description h3 {
-  margin-bottom: 10px;
-}
-.common-page-card-description p {
-  margin-bottom: 10px;
-}
-.common-page-card-description ul li {
-  margin-bottom: 10px;
-  list-style: circle;
-  margin-left: 16px;
-}
-
 .pages-card-content a {
   display: inline-block;
   font-weight: 600;
 }
+.pages-cards {
+  padding: 70px 0;
+}
 
-/* Common Page CSS Start */
+/* About Us Page CSS Start */
+.about-us {
+  padding: 70px 10px;
+}
+.about-us-wrapper h1 {
+  margin-bottom: 15px;
+}
+.about-us-wrapper p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.about-us-wrapper h3 {
+  margin-bottom: 15px;
+}
+.about-us ul li {
+  list-style: disc;
+  margin-left: 15px;
+}
+
+/* About Us Page CSS End */
+
+/* Terms and Conditions CSS Start */
+.terms-conditions {
+  padding: 70px 10px;
+}
+.terms-conditions h1,
+.terms-conditions h3,
+.terms-conditions h4,
+.terms-conditions p {
+  margin-bottom: 15px;
+}
+.terms-conditions p {
+  line-height: 1.5;
+}
+.terms-conditions ul li {
+  list-style: disc;
+  margin-left: 15px;
+}
+/* Terms and Conditions CSS End */
+
+/* Privacy Policy CSS Start */
+.privacy {
+  padding: 70px 10px;
+}
+.privacy-wrapper h1,
+.privacy-wrapper h3,
+.privacy-wrapper h4,
+.privacy-wrapper p {
+  margin-bottom: 15px;
+}
+.privacy-wrapper p {
+  line-height: 1.5;
+}
+.privacy-wrapper ul li {
+  list-style-type: disc;
+  margin-left: 15px;
+}
+
+/* Privacy Policy CSS Start */
+
 /* Pages CSS Start */
 
 /* Slick Slider CSS Start */
@@ -423,10 +463,8 @@ section.home-expect {
   flex-direction: column;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  /* padding: 15px 0; */
-  /* background: #d3eed8; */
   width: 95%;
-  margin: 0 auto 25px auto;
+  margin: 0 auto 30px auto;
 }
 
 .pages-card-image-btn {
