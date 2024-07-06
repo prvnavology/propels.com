@@ -110,6 +110,7 @@ Header CSS Start */
   width: 30px;
   height: 30px;
   text-align: right;
+  cursor: pointer;
 }
 
 /* .dropdown li {
@@ -253,8 +254,7 @@ Header CSS Start */
 #counter .item {
   background: #36b67f;
   width: 20%;
-  /* padding: 35px 40px; */
-  padding: 60px 15px;
+  padding: 90px 15px;
   margin: 10px;
   text-align: center;
   border-radius: 20px;
@@ -267,27 +267,28 @@ Header CSS Start */
   margin-bottom: 5px;
   font-size: 40px;
 }
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #counter .item h3 {
   color: #fffcfc;
   text-transform: uppercase;
 }
-#counter .item h1{
+#counter .item span {
   color: #fffcfc;
   display: inline-block;
-  text-transform: uppercase;
-}
-#counter .item span{
-  color: #fffcfc;
-  display: inline-block;
-text-align: center;
-  font-size: 40px;
+  text-align: center;
+  font-size: 35px;
   font-weight: 700;
   line-height: 40px;
+  margin-left: 2px;
 }
 
 #counter .item i {
   font-size: 30px;
-  display: block;
   color: #fffcfc;
   margin-bottom: 10px;
 }
@@ -367,7 +368,7 @@ section.disclaimer {
   padding: 3px 0px;
 }
 .footer-links ul li a {
-  color: #000;
+  color: #545556;
   cursor: pointer;
   font-weight: 500;
 }
@@ -556,11 +557,12 @@ section.disclaimer {
 .privacy-wrapper ul li {
   list-style-type: disc;
   margin-left: 15px;
+  word-break: break-word;
 }
 
-/* Privacy Policy CSS Start */
+/* Privacy Policy CSS End */
 
-/* Pages CSS Start here */
+/* Pages CSS End here */
 
 /* Slick Slider CSS Start */
 
@@ -590,8 +592,6 @@ section.disclaimer {
   opacity: 0;
 }
 /* Slick Slider CSS End */
-
-
 
 .pages-card-image-btn {
   height: 100%;
@@ -655,11 +655,62 @@ section.disclaimer {
   margin: 15px auto;
 }
 
+#cookie-bar {
+  font-family: "Montserrat", sans-serif;
+  background: #36b67f;
+  display: block;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  left: 0px;
+  color: #fff;
+  width: 100%;
+}
+#cookie-bar p {
+  width: 85%;
+  float: left;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
+}
+#cookie-bar button {
+  float: right;
+  background: #cffbe2;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+#cookie-bar a {
+  color: #fff;
+}
+#contentcookie {
+  padding: 20px 50px;
+  width: 80%;
+  margin: auto;
+}
 
+.clear {
+  clear: both;
+}
 
-
-
-
-
-
-
+@media (max-width: 767px) {
+  #cookie-bar p {
+    width: 100%;
+    font-size: 14px;
+  }
+  #cookie-bar button {
+    width: 100%;
+  }
+  #cookie-bar a {
+    color: #fff;
+  }
+  #contentcookie {
+    padding: 20px 0px;
+    width: 90%;
+    margin: auto;
+  }
+}
