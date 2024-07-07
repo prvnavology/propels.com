@@ -68,6 +68,7 @@ Header CSS Start */
   color: #545556;
   line-height: 35px;
   transition: 0.5sec all ease-in;
+  font-size: 15px;
 }
 .main-navbar ul li a.active {
   border-bottom: 2px solid #000;
