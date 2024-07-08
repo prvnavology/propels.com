@@ -135,16 +135,16 @@ img {
   cursor: pointer;
   margin: auto 0;
 }
-.menu-icon i {
-  /* display: inline-block; */
-  /* margin: auto 0; */
-}
+/* .menu-icon i {
+  display: inline-block; 
+   margin: auto 0;
+} */
 /* Header CSS End */
 
 
 
 
-/* Dropdown CSS Start */
+/* Dropdown CSS Start      In case dropdown is needed on the home page */
 
 /* .dropdown {
   background: #fff;
