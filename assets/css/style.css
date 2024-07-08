@@ -440,6 +440,7 @@ img {
 }
 .page-card-content-c1 ul li:first-child {
   list-style: none;
+  margin-right:0;
 }
 .page-card-content-c1 p {
   margin-bottom: 5px;
