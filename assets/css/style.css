@@ -112,7 +112,7 @@ img {
   display: none;
   color: #000;
   width: 30px;
-  height: 20px;
+  /* height: 20px; */
   text-align: right;
   cursor: pointer;
   margin: auto 0;

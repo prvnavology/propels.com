@@ -266,6 +266,9 @@
 }
 
 @media screen and (max-width: 575px) {
+  .container {
+    padding: 0px 7px;
+  }
   .banner-text h1 span {
     font-size: 40px;
   }
@@ -440,9 +443,7 @@
   .logo img {
     width: 60px;
   }
-   .container {
-    padding: 0px 7px;
-  }
+ 
 
   .home-expect-container h3 {
     font-size: 17px;
