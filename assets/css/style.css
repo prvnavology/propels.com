@@ -468,6 +468,9 @@ img {
   cursor: pointer;
   font-weight: 500;
 }
+.logo-bottom {
+    text-align: center;
+}
 
 .logo-bottom img {
   width: 80px;
