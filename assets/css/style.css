@@ -487,13 +487,14 @@ img {
   width: 60%;
   font-size: 15px;
 }
-#page-card-review {
-  width: 50%;
+.page-card-review {
+  width: 70%;
   height: 70px;
   resize: none;
   padding: 10px 15px;
   outline: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  color: #545556;
 }
 
 /* About Us Page CSS Start */
@@ -696,15 +697,7 @@ img {
 .pages-card-image img:hover {
   transform: scale(1.1);
 }
-#page-card-review {
-  width: 70%;
-  height: 70px;
-  resize: none;
-  padding: 10px 15px;
-  outline: none;
-  border-radius: 10px;
-  color: #545556;
-}
+
 /* .pages-card-image-link a {
   display: inline-block;
   width: 20%;
