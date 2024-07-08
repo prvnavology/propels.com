@@ -25,15 +25,12 @@ $(document).ready(function () {
 
 // Counter JS Start
 let count = document.querySelectorAll(".count");
-
 let arr = Array.from(count);
 arr.map(function (item) {
   let startnumber = 0;
-
   function counterup() {
     startnumber++;
     item.innerHTML = startnumber;
-
     if (startnumber == item.dataset.number) {
       clearInterval(stop);
     }
@@ -42,24 +39,23 @@ arr.map(function (item) {
     counterup();
   }, 60);
 });
-
 // Counter JS End
 
 // Slick Slider JS Start
-$(document).ready(function () {
-  $(".banner-slider").slick({
-    infinite: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-  });
+$(document).ready(function(){
+    $(".banner-slider").slick({
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 3000,
+      });
 });
+
 
 // Slick Slider JS End
 
 //Cookies JS Start
-
 function SetCookie(cookieName, cookieValue, nDays) {
   "use strict";
   var today = new Date();
@@ -107,5 +103,4 @@ $(document).ready(function (e) {
     jQuery("#cookie-bar").hide();
   }
 });
-
 //Cookies JS Start
