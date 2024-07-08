@@ -1,11 +1,22 @@
 @media screen and (max-width: 1900px) {
   /* .banner-slider-content {
     height: 700px;
-  }*/
-} 
+  } */
+}
 
 @media screen and (max-width: 1200px) {
-
+  /* .banner-slider-content {
+    height: 650px;
+  }
+  .pages-slider-content {
+    height: 450px;
+  } */
+  #counter .item {
+    padding: 60px 15px;
+  }
+  .pages-card-image-link a {
+    width: 26%;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -56,6 +67,27 @@
     font-size: 15px;
     font-weight: 500;
   }
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 14px;
+  }
+  .page-card-content-c1 p {
+    font-size: 14px;
+  }
+  .pages-card-image-link a {
+    width: 35%;
+  }
+
+  .pages-card-image-link a:hover {
+    width: 39%;
+  }
+
+  /* Counter CSS Start*/
+  #counter .item {
+    padding: 50px 20px;
+    height: 200px;
+  }
+  /* Counter CSS End */
 }
 
 @media screen and (max-width: 767px) {
@@ -88,6 +120,8 @@
   .main-navbar ul li a {
     color: #fff;
     text-align: left;
+    font-size: 12px;
+    line-height: 10px;
   }
 
   .menuToggle .main-navbar {
@@ -166,6 +200,69 @@
     max-width: 550px;
     margin: 0 auto;
   }
+  .copyright p {
+    font-size: 15px;
+  }
+
+  /* Pages CSS Start */
+  .pages-card-items {
+    width: 100%;
+  }
+  .pages-card-image img {
+    height: 300px;
+    object-fit: cover;
+  }
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 14px;
+  }
+  .commonpage-intro {
+    padding: 40px 0;
+  }
+  .pages-card-image-link a {
+    width: 31%;
+  }
+  .pages-card-image-link a:hover {
+    width: 35%;
+  }
+  .about-us-group-image {
+    width: 100%;
+  }
+  .about-us-group-content {
+    width: 100%;
+  }
+  .about-us-group-image img {
+    height: 250px;
+  }
+  .about-us-wrapper p {
+    max-width: 660px;
+    margin: 15px 0;
+  }
+  .terms-conditions p {
+    font-size: 15px;
+  }
+  .terms-conditions p {
+    margin-bottom: 3px;
+  }
+
+  .privacy {
+    padding: 40px 10px;
+  }
+  .privacy-wrapper p {
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  .privacy-wrapper h1,
+  .privacy-wrapper h3,
+  .privacy-wrapper h4,
+  .privacy-wrapper p {
+    margin-bottom: 10px;
+  }
+  .privacy-wrapper ul li p {
+    margin-bottom: 3px;
+    line-height: normal;
+  }
+  /* Pages CSS End */
 }
 
 @media screen and (max-width: 575px) {
@@ -216,7 +313,13 @@
     font-size: 13px;
   }
   .footer {
-    padding: 40px 5px;
+    padding: 30px 5px;
+  }
+  .logo img {
+    width: 70px;
+  }
+  .copyright p {
+    font-size: 14px;
   }
 
   .footer-items {
@@ -227,6 +330,74 @@
   }
   .home-card {
     width: 100%;
+  }
+  .commonpage-intro-container p {
+    font-size: 13px;
+  }
+
+  .pages-card-image img {
+    height: 240px;
+  }
+  #page-card-review {
+    width: 90%;
+  }
+  .pages-card-content > h3 {
+    font-size: 22px;
+  }
+  .pages-card-content ul li {
+    font-size: 13px;
+  }
+
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 13px;
+  }
+  .page-card-content-c1 p {
+    font-size: 13px;
+  }
+  .pages-card-image-link a {
+    width: 33%;
+  }
+  .pages-card-image-link a:hover {
+    width: 38%;
+  }
+  .about-us {
+    padding: 30px 1px;
+  }
+  .about-us-group-image img {
+    height: 200px;
+  }
+  .about-us-group-content {
+    padding: 15px 20px;
+  }
+  .terms-conditions {
+    padding: 35px 10px;
+  }
+  .terms-conditions p {
+    font-size: 14px;
+    margin-bottom: 3px;
+  }
+  .privacy-wrapper h3 {
+    font-size: 18px;
+  }
+
+  .privacy-wrapper h1,
+  .privacy-wrapper h3,
+  .privacy-wrapper h4,
+  .privacy-wrapper p {
+    margin-bottom: 7px;
+  }
+
+  .privacy-wrapper h1 {
+    font-size: 25px;
+  }
+  .privacy-wrapper p {
+    font-size: 13px;
+    margin-bottom: 6px;
+    line-height: normal;
+  }
+  .privacy-wrapper ul li {
+    font-size: 13px;
   }
 }
 @media screen and (max-width: 480px) {
@@ -296,4 +467,103 @@
     font-weight: 600;
     font-size: 12px;
   }
+  .copyright p {
+    font-size: 13px;
+  }
+
+  .pages-card-image img {
+    height: 180px;
+  }
+  #page-card-review {
+    width: 90%;
+  }
+  .pages-card-image-link a {
+    width: 60%;
+  }
+  .pages-card-image-link a:hover {
+    width: 65%;
+  }
+
+  .pages-card-content > h3 {
+    font-size: 19px;
+  }
+  .pages-card-content ul li {
+    font-size: 12px;
+  }
+
+  .pages-card-content > p,
+  .pages-card-content > ul li {
+    font-size: 12px;
+  }
+  .page-card-content-c1 p {
+    font-size: 12px;
+  }
+  .about-us-group-image img {
+    height: 160px;
+  }
+  .about-us-wrapper p {
+    font-size: 12px;
+  }
+  .about-us-wrapper p {
+    margin: 7px 0;
+  }
+  .privacy-wrapper p {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+  .privacy-wrapper ul li {
+    font-size: 12px;
+  }
+  .privacy-wrapper h3 {
+    font-size: 16px;
+  }
+  .privacy-wrapper h4 {
+    font-size: 15px;
+  }
+  .privacy-group {
+    margin-bottom: 15px;
+  }
+  .privacy-wrapper h1 {
+    font-size: 22px;
+  }
+  /* Counter CSS Start */
+  #counter .item {
+    width: 40%;
+    padding: 30px 0px;
+  }
+  #counter .item i {
+    font-size: 20px;
+  }
+  #counter .item .count {
+    font-size: 20px;
+  }
+  #counter .item span {
+    font-size: 20px;
+  }
+  #counter .item h3 {
+    font-size: 13px;
+  }
+  .terms-conditions {
+    padding: 40px 10px;
+  }
+  .terms-conditions h1 {
+    text-align: left;
+    font-size: 20px;
+  }
+  .terms-conditions p {
+    font-size: 12px;
+    line-height: normal;
+  }
+  .terms-conditions ul li p {
+    margin-bottom: 3px;
+    font-size: 12px;
+  }
+  .terms-conditions h3 {
+    font-size: 16px;
+  }
+  .terms-conditions h4 {
+    font-size: 15px;
+  }
+
+  /* Counter CSS End */
 }
