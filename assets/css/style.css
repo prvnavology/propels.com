@@ -183,8 +183,8 @@ img {
   text-align: center;
   font-weight: 500;
   opacity: 0;
-  transform: translateY(30px);
-  animation: slideUp 2s ease-in-out forwards;
+  transform: translateY(40px);
+  animation: slideUp 1.5s ease-in-out forwards;
 }
 @keyframes slideUp {
   to {
