@@ -96,11 +96,12 @@ img {
   right: 0;
   width: 100%;
   margin: 0 auto;
-  z-index: 90;
+  z-index: 999;
+  background-color: #fff;
 }
-.fixed-header {
+/* .fixed-header {
   background-color: #fffcfc;
-}
+} */
 .desktop-menu {
   display: flex;
   justify-content: space-between;
