@@ -359,10 +359,12 @@
     font-size: 13px;
   }
   .pages-card-image-link a {
-    width: 33%;
-  }
+    width: 30%;
+    font-size: 13px;
+    padding: 7px 0;
+}
   .pages-card-image-link a:hover {
-    width: 38%;
+    width: 34%;
   }
   .about-us {
     padding: 30px 1px;
@@ -482,10 +484,12 @@
     width: 90%;
   }
   .pages-card-image-link a {
-    width: 60%;
-  }
+    width: 35%;
+    font-size: 12px;
+    padding: 7px 0px;
+}
   .pages-card-image-link a:hover {
-    width: 65%;
+    width: 39%;
   }
 
   .pages-card-content > h3 {

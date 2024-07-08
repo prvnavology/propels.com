@@ -6,12 +6,14 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
   background: #f6f6f6;
 }
+
 h1,
 h2,
 h3,
@@ -20,6 +22,7 @@ h5,
 h6 {
   font-family: "Montserrat", sans-serif;
 }
+
 p {
   font-weight: 500;
 }
@@ -46,25 +49,33 @@ img {
   margin: 0 auto;
   padding: 0 10px;
 }
+
 /* 
   Global CSS End */
 
 /*Header CSS Start */
+.logo img {
+  width: 80px;
+}
 
 .site-header .container {
   max-width: 1100px;
   margin: 0 auto;
   padding: 0 10px;
 }
+
 .main-navbar ul {
   display: flex;
   gap: 10px;
   justify-content: center;
   align-items: center;
 }
+
 .main-navbar ul li {
-  position: relative; /* For dropdown menu */
+  position: relative;
+  /* For dropdown menu */
 }
+
 .main-navbar ul li a {
   font-size: 1rem;
   padding: 10px;
@@ -74,12 +85,15 @@ img {
   line-height: 35px;
   transition: 0.5sec all ease-in;
   font-size: 15px;
+  text-align: center;
 }
+
 .main-navbar ul li a.active {
   border-bottom: 1px solid #000;
   /* color: #467e66; */
   color: #36b67f;
 }
+
 .main-navbar ul li a:hover {
   /* color: #467e66; */
   color: #fff;
@@ -87,9 +101,11 @@ img {
   /* background-color: #c7fcec; */
   background: #36b67f;
 }
+
 .close-icon {
   display: none;
 }
+
 .site-header {
   position: sticky;
   top: 0;
@@ -100,6 +116,7 @@ img {
   z-index: 999;
   background-color: #fff;
 }
+
 /* .fixed-header {
   background-color: #fffcfc;
 } */
@@ -122,25 +139,32 @@ img {
   /* display: inline-block; */
   /* margin: auto 0; */
 }
-/* .dropdown li {
-  text-align: left;
-}
-.dropdown {
-  background: aliceblue;
+/* Header CSS End */
+
+
+
+
+/* Dropdown CSS Start */
+
+/* .dropdown {
+  background: #fff;
   display: flex;
   flex-direction: column;
   position: absolute;
-  width: 150px;
-  left: 0;
+  width: 200px;
+  left: -93%;
   opacity: 0;
   visibility: hidden;
-  transition: 0.5s opacity ease-in-out;
+  transition: 0.7s opacity ease-in-out;
+  margin: 0 auto;
+  text-align: center;
 }
 .dropdown li {
   width: 100%;
   color: #fffcfc;
 }
 .dropdown li a {
+  display: inline-block;
   color: #fffcfc;
   width: 100%;
 }
@@ -148,16 +172,18 @@ img {
   opacity: 1;
   visibility: visible;
 } */
-.logo img {
-  width: 80px;
-}
 
-/* Header CSS End */
+/* Dropdown CSS End*/
+
+
+
+
 
 /* Banner Section CSS Start */
 .banner {
   position: relative;
 }
+
 .banner-text {
   position: absolute;
   top: 50%;
@@ -170,12 +196,14 @@ img {
   align-items: center;
   background-color: #0000007d;
 }
+
 .banner-text h1 span {
   font-size: 60px;
   color: #fff;
   display: block;
   font-weight: 700;
 }
+
 .banner-text h1 {
   font-size: 30px;
   max-width: 700px;
@@ -187,12 +215,14 @@ img {
   transform: translateY(40px);
   animation: slideUp 1.5s ease-in-out forwards;
 }
+
 @keyframes slideUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
+
 /* Banner Section  CSS End */
 
 /* Home Intro CSS Start */
@@ -201,30 +231,35 @@ img {
   text-align: center;
   background: #c7fcec;
 }
+
 .home-wrapper p {
   max-width: 1000px;
   margin: 0 auto;
   font-weight: 500;
   color: #545556;
 }
+
 /* Home Intro CSS End */
 
 /* Home Cards CSS Start */
 .home-page-cards {
   padding: 50px 0;
 }
+
 .home-cards {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+
 .home-card {
   width: 30%;
   text-align: center;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   margin: 20px auto;
 }
+
 .home-card-image img {
   width: 100%;
   height: 100%;
@@ -234,18 +269,22 @@ img {
 
   object-fit: cover;
 }
+
 .home-card-image {
   overflow: hidden;
   height: 270px;
 }
+
 .home-card-image img:hover {
   transform: scale(1.2);
 }
+
 .card-content {
   padding: 10px 0;
   margin: 0 auto;
   background-color: #36b67f;
 }
+
 .card-content a {
   text-align: center;
   display: flex;
@@ -256,6 +295,7 @@ img {
   cursor: pointer;
   color: #fff;
 }
+
 /* Home Cards CSS End*/
 
 /* Counter Section CSS Start */
@@ -271,6 +311,7 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+
 #counter .item {
   background: #36b67f;
   width: 20%;
@@ -282,6 +323,7 @@ img {
   -moz-box-shadow: 0px 0px 38px -8px rgba(0, 0, 0, 0.34);
   box-shadow: 0px 0px 38px -8px rgba(0, 0, 0, 0.34);
 }
+
 #counter .item .count {
   color: #fffcfc;
   margin-bottom: 5px;
@@ -293,10 +335,12 @@ img {
   justify-content: center;
   align-items: center;
 }
+
 #counter .item h3 {
   color: #fffcfc;
   text-transform: uppercase;
 }
+
 #counter .item span {
   color: #fffcfc;
   text-align: center;
@@ -305,37 +349,45 @@ img {
   line-height: 40px;
   margin-left: 5px;
 }
+
 #counter .item:last-child span {
   font-size: 25px;
 }
+
 #counter .item i {
   font-size: 30px;
   color: #fffcfc;
   margin-bottom: 10px;
 }
+
 /* Counter Section CSS End */
 
 /* What to Expect Section CSS Start */
 .home-expect {
   padding: 50px 0;
 }
+
 .home-expect-container h3 {
   margin-bottom: 15px;
 }
+
 .home-expect-container p,
 .home-expect-container ul li {
   margin-bottom: 12px;
   font-weight: 500;
   color: #545556;
 }
+
 .home-expect-container ul li {
   list-style-type: disc;
   margin-left: 15px;
 }
+
 .heading-like {
   font-weight: 700;
   color: #000;
 }
+
 /* What to Expect Section CSS End */
 
 /* Disclaimer Section CSS Start */
@@ -343,16 +395,20 @@ img {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 45px 0;
 }
+
 .disclaimer-wrapper h3 {
   margin-bottom: 10px;
 }
+
 .disclaimer-wrapper {
   text-align: center;
 }
+
 .disclaimer-wrapper p {
   font-size: 15px;
   color: #545556;
 }
+
 /* Disclaimer Section CSS End */
 
 /* Footer CSS Start */
@@ -361,10 +417,16 @@ img {
   /* background: linear-gradient(to bottom,#c7fcec, #36b67f); */
   padding: 50px 5px;
 }
+
 .footer-wrapper {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.footer-items:last-child {
+  /*For small screens where footer items are vertically stacked */
+  margin-bottom: 0;
 }
 
 .footer-icons {
@@ -373,6 +435,7 @@ img {
   margin-top: 15px;
   transition: 0.6s all ease-out;
 }
+
 .footer-icons i:hover {
   transform: scale(1.4);
 }
@@ -380,6 +443,7 @@ img {
 .footer-items h3 {
   color: #000;
 }
+
 .footer-icons i {
   width: 30px;
   height: 30px;
@@ -390,20 +454,25 @@ img {
   line-height: 30px;
   margin: 0 5px;
 }
+
 .footer-links ul {
   margin-top: 15px;
 }
+
 .footer-links ul li {
   padding: 3px 0px;
 }
+
 .footer-links ul li a {
   color: #545556;
   cursor: pointer;
   font-weight: 500;
 }
+
 .logo-bottom img {
   width: 80px;
 }
+
 /* Footer CSS End */
 
 /* Copyright Section CSS Start */
@@ -413,6 +482,7 @@ img {
   background: #fcefef;
   color: #6d6d6e;
 }
+
 /* Copyright Section CSS End */
 
 /* Pages CSS Start */
@@ -427,7 +497,8 @@ img {
   margin-bottom: 15px;
   color: #06663d;
 }
-.commonpage-intro-container p { 
+
+.commonpage-intro-container p {
   color: #545556;
   font-size: 15px;
 }
@@ -436,23 +507,28 @@ img {
   display: inline-block;
   font-weight: 600;
 }
+
 .page-card-content-c1 {
   margin: 20px 0;
 }
+
 .page-card-content-c1 ul li:first-child {
   list-style: none;
-  margin-right:0;
+  margin-right: 0;
 }
+
 .page-card-content-c1 p {
   margin-bottom: 5px;
   color: #545556;
 }
+
 .pages-cards {
-  padding: 20px 0;
+  padding: 0px 0 50px 0;
 }
 .pages-card:nth-child(even) {
   flex-direction: row-reverse;
 }
+
 .pages-card-image-link a {
   display: inline-block;
   width: 30%;
@@ -465,6 +541,7 @@ img {
   font-weight: 600;
   transition: 0.5s all ease-out;
 }
+
 .pages-card-image-link a:hover {
   width: 33%;
   background-color: #2cda8e;
@@ -478,20 +555,38 @@ img {
   border-radius: 10px;
   overflow: hidden;
 }
+.pages-card:last-child {
+  margin-bottom: 0px;
+}
+
 .pages-card-image {
   width: 40%;
 }
+.after-cards-content {
+  padding: 0 0 50px 0;
+}
+.after-cards-content-wrapper {
+  color: #545556;
+  font-size: 15px;
+  text-align: center;
+  max-width: 1070px;
+  margin: 0 auto;
+}
+
 .pages-card-image-content ul li {
   padding: 5px 0;
 }
+
 .pages-card-image-content ul {
   margin-bottom: 30px;
 }
+
 .pages-card-content {
   padding: 25px;
   width: 60%;
   font-size: 15px;
 }
+
 .page-card-review {
   width: 70%;
   height: 70px;
@@ -506,9 +601,11 @@ img {
 .about-us {
   padding: 40px 1px;
 }
+
 .about-us-wrapper h1 {
   margin-bottom: 15px;
 }
+
 .about-us-wrapper p {
   line-height: 1.2;
   margin-bottom: 12px;
@@ -520,17 +617,20 @@ img {
   margin-bottom: 12px;
   color: #000;
 }
+
 .about-us-wrapper p {
   color: #545556;
   font-size: 14px;
   line-height: 1.3;
   margin-bottom: 10px;
 }
+
 .about-us ul li {
   list-style: disc;
   margin-left: 15px;
   font-size: 14px;
 }
+
 .about-us-group-wrapper {
   display: flex;
   margin-bottom: 30px;
@@ -539,22 +639,27 @@ img {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
 }
+
 .about-us-group-image {
   width: 40%;
 }
+
 .about-us-group-image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
 }
+
 .about-us-group-content {
   width: 60%;
   padding: 20px 25px;
   color: #545556;
 }
+
 .about-us-group-wrapper:nth-child(even) {
   flex-direction: row-reverse;
 }
+
 /* About Us Page CSS End */
 
 /* Terms and Conditions CSS Start */
@@ -566,6 +671,7 @@ img {
 .terms-conditions h4 {
   margin-bottom: 5px;
 }
+
 .terms-conditions h1 {
   margin-bottom: 15px;
   font-size: 30px;
@@ -576,35 +682,43 @@ img {
   margin-bottom: 7px;
   color: #545556;
 }
+
 .terms-conditions ul li {
   list-style: disc;
   margin-left: 15px;
 }
+
 .terms-conditions-group {
   margin-bottom: 13px;
 }
+
 /* Terms and Conditions CSS End */
 
 /* Privacy Policy CSS Start */
 .privacy {
   padding: 70px 10px;
 }
+
 .privacy-group {
   margin-bottom: 15px;
 }
+
 .privacy-wrapper h1,
 .privacy-wrapper h3,
 .privacy-wrapper h4,
 .privacy-wrapper p {
   margin-bottom: 15px;
 }
+
 .privacy-wrapper h1 {
   font-size: 30px;
 }
+
 .privacy-wrapper p {
   line-height: 1.4;
   color: #545556;
 }
+
 .privacy-wrapper ul li {
   list-style-type: disc;
   margin-left: 15px;
@@ -623,9 +737,11 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
 .banner-slider-content {
   height: 600px;
 }
+
 .banner-slider-content img {
   height: 100%;
   object-fit: cover;
@@ -635,6 +751,7 @@ img {
   height: 500px;
   overflow: hidden;
 }
+
 .pages-banner-text h1 {
   font-size: 50px;
 }
@@ -643,44 +760,53 @@ img {
   left: 0;
   display: none;
 }
+
 .slick-next {
   right: 0;
   display: none;
 }
+
 .slick-prev:before,
 .slick-next:before {
   opacity: 0;
 }
+
 .pages-slider-content img {
   /* For Pages */
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 /* Slick Slider CSS End */
 
 .pages-card-image-btn {
   height: 100%;
   width: 100%;
 }
+
 .pages-card-image-btn img {
   height: 100%;
   object-fit: cover;
   width: 100%;
 }
+
 .pages-card-content {
   padding: 20px 30px;
 }
-.pages-card-content > p,
-.pages-card-content > ul li {
+
+.pages-card-content>p,
+.pages-card-content>ul li {
   margin-bottom: 15px;
   line-height: 1.3;
   color: #545556;
 }
-.pages-card-content > h3 {
+
+.pages-card-content>h3 {
   margin-bottom: 15px;
   font-size: 25px;
 }
+
 .pages-card-content ul li {
   list-style-type: disc;
   margin-left: 18px;
@@ -688,17 +814,21 @@ img {
   font-weight: 500;
   color: #545556;
 }
+
 .pages-card-content .heading-like {
   /* Only for CSS */
   margin-right: 5px;
   color: #000;
 }
+
 .pages-card-image-btn {
   overflow: hidden;
 }
+
 .pages-card-image img {
   transition: 0.4s all ease-in-out;
 }
+
 .pages-card-image img:hover {
   transform: scale(1.1);
 }
@@ -725,6 +855,7 @@ img {
   color: #fff;
   width: 100%;
 }
+
 #cookie-bar p {
   width: 85%;
   float: left;
@@ -733,6 +864,7 @@ img {
   line-height: 24px;
   color: #fff;
 }
+
 #cookie-bar button {
   float: right;
   background: #cffbe2;
@@ -744,9 +876,11 @@ img {
   border-radius: 4px;
   cursor: pointer;
 }
+
 #cookie-bar a {
   color: #fff;
 }
+
 #contentcookie {
   padding: 20px 50px;
   width: 80%;
@@ -762,19 +896,23 @@ img {
     width: 100%;
     font-size: 14px;
   }
+
   #cookie-bar button {
     width: 100%;
     cursor: pointer;
   }
+
   #cookie-bar a {
     color: #fff;
   }
+
   #contentcookie {
     padding: 20px 0px;
     width: 90%;
     margin: auto;
   }
-  #Cookie{
+
+  #Cookie {
     cursor: pointer;
   }
 }
