@@ -438,6 +438,9 @@ img {
 .page-card-content-c1 {
   margin: 20px 0;
 }
+.page-card-content-c1 ul li:first-child {
+  list-style: none;
+}
 .page-card-content-c1 p {
   margin-bottom: 5px;
   color: #545556;
