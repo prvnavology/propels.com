@@ -5,15 +5,18 @@
 }
 
 @media screen and (max-width: 1200px) {
+
   /* .banner-slider-content {
     height: 650px;
   }*/
   .pages-slider-content {
     height: 350px;
   }
+
   #counter .item {
     padding: 60px 15px;
   }
+
   .pages-card-image-link a {
     width: 26%;
   }
@@ -23,27 +26,35 @@
   .main-navbar ul li a {
     font-size: 13px;
   }
+
   .banner-text h1 span {
     font-size: 45px;
   }
+
   .banner-text h1 {
     font-size: 25px;
   }
+
   .banner-slider-content {
     height: 400px;
   }
+
   .pages-slider-content {
     height: 300px;
   }
+
   #counter .item .count {
     font-size: 35px;
   }
+
   #counter .item h3 {
     font-size: 14px;
   }
+
   #counter .item {
     padding: 50px 20px;
   }
+
   .home-wrapper p {
     font-size: 14px;
     max-width: 750px;
@@ -54,26 +65,32 @@
     max-width: 700px;
     margin: 0 auto;
   }
+
   .home-expect-container p,
   .home-expect-container ul li {
     font-size: 14px;
   }
+
   .disclaimer-wrapper p {
     font-size: 14px;
     max-width: 700px;
     margin: 0 auto;
   }
+
   .footer-links ul li a {
     font-size: 15px;
     font-weight: 500;
   }
-  .pages-card-content > p,
-  .pages-card-content > ul li {
+
+  .pages-card-content>p,
+  .pages-card-content>ul li {
     font-size: 14px;
   }
+
   .page-card-content-c1 p {
     font-size: 14px;
   }
+
   .pages-card-image-link a {
     width: 35%;
   }
@@ -87,6 +104,7 @@
     padding: 50px 20px;
     height: 200px;
   }
+
   /* Counter CSS End */
 }
 
@@ -117,6 +135,7 @@
     z-index: 50;
     color: #fff;
   }
+
   .main-navbar ul li a {
     color: #fff;
     text-align: left;
@@ -137,6 +156,7 @@
     color: #fff;
     text-align: end;
   }
+
   .home-card {
     width: 45%;
   }
@@ -144,6 +164,7 @@
   .banner-text h1 span {
     font-size: 50px;
   }
+
   .banner-text h1 {
     font-size: 22px;
     max-width: 465px;
@@ -154,30 +175,38 @@
     padding: 60px 0px;
     height: 100%;
   }
+
   .banner-slider-content {
     height: 350px;
   }
+
   .pages-slider-content {
     height: 290px;
   }
+
   .home-page-cards {
     padding: 40px 0;
   }
+
   .home-wrapper p {
     font-size: 13px;
     max-width: 600px;
     margin: 0 auto;
     text-align: center;
   }
+
   #counter {
     padding: 50px 0px;
   }
+
   #counter .item .count {
     font-size: 30px;
   }
+
   #counter .item h3 {
     font-size: 17px;
   }
+
   #counter .item i {
     font-size: 25px;
   }
@@ -187,10 +216,12 @@
     max-width: 570px;
     margin: 0 auto;
   }
+
   .footer-links ul li a {
     font-size: 13px;
     font-weight: 600;
   }
+
   .home-expect-container p,
   .home-expect-container ul li {
     font-size: 13px;
@@ -200,6 +231,7 @@
     max-width: 550px;
     margin: 0 auto;
   }
+
   .copyright p {
     font-size: 15px;
   }
@@ -208,39 +240,52 @@
   .pages-card-items {
     width: 100%;
   }
+
   .pages-card-image img {
     height: 300px;
     object-fit: cover;
   }
-  .pages-card-content > p,
-  .pages-card-content > ul li {
+
+  .pages-card-content>p,
+  .pages-card-content>ul li {
     font-size: 14px;
   }
+
   .commonpage-intro {
     padding: 40px 0;
   }
+
   .pages-card-image-link a {
     width: 31%;
   }
+
   .pages-card-image-link a:hover {
     width: 35%;
   }
+
   .about-us-group-image {
     width: 100%;
   }
+
   .about-us-group-content {
     width: 100%;
   }
+
   .about-us-group-image img {
     height: 250px;
+    object-fit: cover;
+    width: 100%;
   }
+
   .about-us-wrapper p {
     max-width: 660px;
     margin: 15px 0;
   }
+
   .terms-conditions p {
     font-size: 15px;
   }
+
   .terms-conditions p {
     margin-bottom: 3px;
   }
@@ -248,20 +293,24 @@
   .privacy {
     padding: 40px 10px;
   }
+
   .privacy-wrapper p {
     line-height: 1.4;
     font-size: 15px;
   }
+
   .privacy-wrapper h1,
   .privacy-wrapper h3,
   .privacy-wrapper h4,
   .privacy-wrapper p {
     margin-bottom: 10px;
   }
+
   .privacy-wrapper ul li p {
     margin-bottom: 3px;
     line-height: normal;
   }
+
   /* Pages CSS End */
 }
 
@@ -269,34 +318,44 @@
   .container {
     padding: 0px 7px;
   }
+
   .banner-text h1 span {
     font-size: 40px;
   }
+
   .banner-text h1 {
     font-size: 18px;
   }
+
   .banner-slider-content {
     height: 300px;
   }
+
   .home-intro {
     padding: 40px 0;
   }
+
   .home-wrapper p {
     font-size: 13px;
     max-width: 470px;
   }
+
   .home-page-cards {
     padding: 30px 0;
   }
+
   .home-card {
     margin: 15px auto;
   }
+
   #counter .item .count {
     font-size: 30px;
   }
+
   #counter .item i {
     font-size: 25px;
   }
+
   #counter .item h3 {
     font-size: 13px;
   }
@@ -306,21 +365,26 @@
     margin-bottom: 10px;
     font-size: 14px;
   }
+
   section.home-expect {
     padding: 45px 0;
     max-width: 500px;
     margin: 0 auto;
   }
+
   .footer-links ul li a {
     font-weight: 600;
     font-size: 13px;
   }
+
   .footer {
     padding: 30px 5px;
   }
+
   .logo img {
     width: 70px;
   }
+
   .copyright p {
     font-size: 14px;
   }
@@ -331,9 +395,11 @@
     text-align: center;
     margin-bottom: 30px;
   }
+
   .home-card {
     width: 100%;
   }
+
   .commonpage-intro-container p {
     font-size: 13px;
   }
@@ -341,47 +407,59 @@
   .pages-card-image img {
     height: 240px;
   }
+
   #page-card-review {
     width: 90%;
   }
-  .pages-card-content > h3 {
+
+  .pages-card-content>h3 {
     font-size: 22px;
   }
+
   .pages-card-content ul li {
     font-size: 13px;
   }
 
-  .pages-card-content > p,
-  .pages-card-content > ul li {
+  .pages-card-content>p,
+  .pages-card-content>ul li {
     font-size: 13px;
   }
+
   .page-card-content-c1 p {
     font-size: 13px;
   }
+
   .pages-card-image-link a {
     width: 30%;
     font-size: 13px;
     padding: 7px 0;
-}
+  }
+
   .pages-card-image-link a:hover {
     width: 34%;
   }
+
   .about-us {
     padding: 30px 1px;
   }
+
   .about-us-group-image img {
     height: 200px;
   }
+
   .about-us-group-content {
     padding: 15px 20px;
   }
+
   .terms-conditions {
     padding: 35px 10px;
   }
+
   .terms-conditions p {
     font-size: 14px;
     margin-bottom: 3px;
   }
+
   .privacy-wrapper h3 {
     font-size: 18px;
   }
@@ -396,83 +474,104 @@
   .privacy-wrapper h1 {
     font-size: 25px;
   }
+
   .privacy-wrapper p {
     font-size: 13px;
     margin-bottom: 6px;
     line-height: normal;
   }
+
   .privacy-wrapper ul li {
     font-size: 13px;
   }
 }
+
 @media screen and (max-width: 480px) {
   .banner-text h1 span {
     font-size: 30px;
   }
+
   .banner-text h1 {
     font-size: 18px;
   }
+
   .banner-slider-content {
     height: 250px;
   }
+
   .home-wrapper p {
     max-width: 320px;
     font-size: 13px;
   }
+
   .card-content h3 {
     font-size: 16px;
   }
+
   #counter .item {
     width: 70%;
     padding: 60px 0px;
   }
+
   #counter .item span {
     font-size: 25px;
   }
+
   .home-expect-container h3 {
     margin-bottom: 10px;
   }
+
   .home-expect-container p,
   .home-expect-container ul li {
     margin-bottom: 10px;
   }
+
   .disclaimer-wrapper p {
     font-size: 13px;
   }
+
   .logo-bottom img {
     width: 65px;
   }
+
   .logo img {
     width: 60px;
   }
- 
+
 
   .home-expect-container h3 {
     font-size: 17px;
   }
+
   .heading-like {
     font-size: 14px;
   }
+
   .home-expect-container p,
   .home-expect-container ul li {
     font-size: 13px;
   }
+
   section.home-expect {
     padding: 45px 0;
   }
+
   .footer {
     padding: 40px 5px;
   }
+
   .footer-icons i {
     width: 25px;
     height: 25px;
     font-size: 13px;
     line-height: 25px;
   }
+
   .footer-links ul li a {
     font-weight: 600;
     font-size: 12px;
   }
+
   .copyright p {
     font-size: 13px;
   }
@@ -480,95 +579,127 @@
   .pages-card-image img {
     height: 180px;
   }
+
   #page-card-review {
     width: 90%;
   }
+
   .pages-card-image-link a {
     width: 35%;
     font-size: 12px;
     padding: 7px 0px;
-}
+  }
+
   .pages-card-image-link a:hover {
     width: 39%;
   }
 
-  .pages-card-content > h3 {
+  .pages-card-content>h3 {
     font-size: 19px;
   }
+
   .pages-card-content ul li {
     font-size: 12px;
   }
 
-  .pages-card-content > p,
-  .pages-card-content > ul li {
+  .page-card-review {
+    width: 95%;
+    height: 60px;
+    padding: 5px 10px;
+
+  }
+
+  .pages-card-content>p,
+  .pages-card-content>ul li {
     font-size: 12px;
   }
+
   .page-card-content-c1 p {
     font-size: 12px;
   }
+
   .about-us-group-image img {
     height: 160px;
   }
+
   .about-us-wrapper p {
     font-size: 12px;
   }
+
   .about-us-wrapper p {
     margin: 7px 0;
   }
+
   .privacy-wrapper p {
     font-size: 12px;
     margin-bottom: 6px;
   }
+
   .privacy-wrapper ul li {
     font-size: 12px;
   }
+
   .privacy-wrapper h3 {
     font-size: 16px;
   }
+
   .privacy-wrapper h4 {
     font-size: 15px;
   }
+
   .privacy-group {
     margin-bottom: 15px;
   }
+
   .privacy-wrapper h1 {
     font-size: 22px;
   }
+
   /* Counter CSS Start */
   #counter .item {
     width: 40%;
     padding: 30px 0px;
   }
+
   #counter .item i {
     font-size: 20px;
   }
+
   #counter .item .count {
     font-size: 20px;
   }
+
   #counter .item span {
     font-size: 20px;
   }
+
   #counter .item h3 {
     font-size: 13px;
   }
+
   .terms-conditions {
     padding: 40px 10px;
   }
+
   .terms-conditions h1 {
     text-align: left;
     font-size: 20px;
   }
+
   .terms-conditions p {
     font-size: 12px;
     line-height: normal;
   }
+
   .terms-conditions ul li p {
     margin-bottom: 3px;
     font-size: 12px;
   }
+
   .terms-conditions h3 {
     font-size: 16px;
   }
+
   .terms-conditions h4 {
     font-size: 15px;
   }

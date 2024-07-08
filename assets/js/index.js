@@ -37,7 +37,7 @@ arr.map(function (item) {
   }
   let stop = setInterval(function () {
     counterup();
-  }, 60);
+  }, 5);
 });
 // Counter JS End
 
