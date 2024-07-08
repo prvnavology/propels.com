@@ -37,6 +37,7 @@ a {
 
 img {
   max-width: 100%;
+  object-fit: cover;
 }
 
 .container {
@@ -45,12 +46,15 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-
 /* 
   Global CSS End */
 
-/* 
-Header CSS Start */
+/*Header CSS Start */
+
+.site-header .container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
 .main-navbar ul {
   display: flex;
   gap: 10px;
@@ -58,32 +62,33 @@ Header CSS Start */
   align-items: center;
 }
 .main-navbar ul li {
-  position: relative;
+  position: relative; /* For dropdown menu */
 }
 .main-navbar ul li a {
   font-size: 1rem;
   padding: 10px;
   display: inline-block;
   font-weight: 500;
+  color: #545556;
+  line-height: 35px;
+  transition: 0.5sec all ease-in;
+  font-size: 15px;
 }
 .main-navbar ul li a.active {
-  border-bottom: 1px solid #000;
-  color: #467e66;
+  border-bottom: 2px solid #000;
+  /* color: #467e66; */
+  color: #36b67f;
 }
 .main-navbar ul li a:hover {
-  color: #467e66;
+  /* color: #467e66; */
+  color: #fff;
   cursor: pointer;
+  /* background-color: #c7fcec; */
+  background: #36b67f;
 }
-
-.site-header .container {
-  max-width: 1170px;
-  margin: 0 auto;
-}
-
 .close-icon {
   display: none;
 }
-
 .site-header {
   position: sticky;
   top: 0;
@@ -100,18 +105,16 @@ Header CSS Start */
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 5px 0;
+  /* padding: 5px 0; */
 }
-
 .menu-icon {
   display: none;
   color: #000;
   width: 30px;
   height: 30px;
   text-align: right;
+  cursor: pointer;
 }
-
-
 /* .dropdown li {
   text-align: left;
 }
@@ -141,13 +144,13 @@ Header CSS Start */
 .logo img {
   width: 80px;
 }
+
 /* Header CSS End */
 
 /* Banner Section CSS Start */
 .banner {
   position: relative;
 }
-
 .banner-text {
   position: absolute;
   top: 50%;
@@ -173,8 +176,17 @@ Header CSS Start */
   color: #fff;
   text-align: center;
   font-weight: 500;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: slideUp 2s ease-in-out forwards;
 }
-/* Banner Section  CSS Start */
+@keyframes slideUp {
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+/* Banner Section  CSS End */
 
 /* Home Intro CSS Start */
 .home-intro {
@@ -188,7 +200,7 @@ Header CSS Start */
   font-weight: 500;
   color: #545556;
 }
-/* Home Intro CSS Start */
+/* Home Intro CSS End */
 
 /* Home Cards CSS Start */
 .home-page-cards {
@@ -211,16 +223,16 @@ Header CSS Start */
   height: 100%;
   cursor: pointer;
   object-fit: cover;
-  transition: all 0.4s ease-in;
+  transition: all 0.5s ease-in-out;
 
   object-fit: cover;
 }
 .home-card-image {
   overflow: hidden;
-  height: 230px;
+  height: 270px;
 }
 .home-card-image img:hover {
-  transform: scale(1.3);
+  transform: scale(1.2);
 }
 .card-content {
   padding: 10px 0;
@@ -237,8 +249,9 @@ Header CSS Start */
   cursor: pointer;
   color: #fff;
 }
-
 /* Home Cards CSS End*/
+
+/* Counter Section CSS Start */
 #counter {
   max-width: 2560px;
   text-align: center;
@@ -253,7 +266,7 @@ Header CSS Start */
 #counter .item {
   background: #36b67f;
   width: 20%;
-  padding: 35px 40px;
+  padding: 90px 15px;
   margin: 10px;
   text-align: center;
   border-radius: 20px;
@@ -266,18 +279,38 @@ Header CSS Start */
   margin-bottom: 5px;
   font-size: 40px;
 }
+
+.counter-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #counter .item h3 {
   color: #fffcfc;
   text-transform: uppercase;
+}
+#counter .item span {
+  color: #fffcfc;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 40px;
+  margin-left: 5px;
+}
+#counter .item:last-child span {
+  font-size: 25px;
 }
 #counter .item i {
   font-size: 30px;
   color: #fffcfc;
   margin-bottom: 10px;
 }
+/* Counter Section CSS End */
+
+
 
 /* What to Expect Section CSS Start */
-section.home-expect {
+.home-expect {
   padding: 50px 0;
 }
 .home-expect-container h3 {
@@ -299,8 +332,9 @@ section.home-expect {
 }
 /* What to Expect Section CSS End */
 
+
 /* Disclaimer Section CSS Start */
-section.disclaimer {
+.disclaimer {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 45px 0;
 }
@@ -309,16 +343,18 @@ section.disclaimer {
 }
 .disclaimer-wrapper {
   text-align: center;
-} 
+}
 .disclaimer-wrapper p {
   font-size: 15px;
   color: #545556;
 }
 /* Disclaimer Section CSS End */
 
+
 /* Footer CSS Start */
 .footer {
   background: #c7fcec;
+  /* background: linear-gradient(to bottom,#c7fcec, #36b67f); */
   padding: 50px 5px;
 }
 .footer-wrapper {
@@ -329,8 +365,14 @@ section.disclaimer {
 
 .footer-icons {
   text-align: center;
+  display: inline-block;
   margin-top: 15px;
+  transition: 0.6s all ease-out;
 }
+.footer-icons i:hover {
+  transform: scale(1.4);
+}
+
 .footer-items h3 {
   color: #000;
 }
@@ -351,7 +393,7 @@ section.disclaimer {
   padding: 3px 0px;
 }
 .footer-links ul li a {
-  color: #000;
+  color: #545556;
   cursor: pointer;
   font-weight: 500;
 }
@@ -360,12 +402,18 @@ section.disclaimer {
 }
 /* Footer CSS End */
 
-/* Pages CSS Start */
-.pages-slider-content img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+
+/* Copyright Section CSS Start */
+.copyright {
+  padding: 20px 0;
+  text-align: center;
+  background: #fcefef;
+  color: #6d6d6e;
 }
+/* Copyright Section CSS End */
+
+
+/* Pages CSS Start */
 .commonpage-intro {
   padding: 50px 0;
   max-width: 1000px;
@@ -409,11 +457,47 @@ section.disclaimer {
   color: #fff;
   margin: 15px auto;
   font-weight: 600;
+  transition: 0.5s all ease-out;
+}
+.pages-card-image-link a:hover {
+  width: 33%;
+  background-color: #2cda8e;
+}
+
+.pages-card {
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  margin-bottom: 45px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.pages-card-image {
+  width: 40%;
+}
+.pages-card-image-content ul li {
+  padding: 5px 0;
+}
+.pages-card-image-content ul {
+  margin-bottom: 30px;
+}
+.pages-card-content {
+  padding: 25px;
+  width: 60%;
+  font-size: 15px;
+}
+#page-card-review {
+  width: 50%;
+  height: 70px;
+  resize: none;
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 5px;
 }
 
 /* About Us Page CSS Start */
 .about-us {
-  padding: 40px 10px;
+  padding: 40px 1px;
 }
 .about-us-wrapper h1 {
   margin-bottom: 15px;
@@ -423,9 +507,9 @@ section.disclaimer {
   margin-bottom: 12px;
 }
 
-.about-us-wrapper h3, 
+.about-us-wrapper h3,
 .about-us-wrapper h2,
-.about-us-wrapper h1{
+.about-us-wrapper h1 {
   margin-bottom: 12px;
   color: #000;
 }
@@ -440,7 +524,30 @@ section.disclaimer {
   margin-left: 15px;
   font-size: 14px;
 }
-
+.about-us-group-wrapper {
+  display: flex;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  overflow: hidden;
+}
+.about-us-group-image {
+  width: 40%;
+}
+.about-us-group-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.about-us-group-content {
+  width: 60%;
+  padding: 20px 25px;
+  color: #545556;
+}
+.about-us-group-wrapper:nth-child(even) {
+  flex-direction: row-reverse;
+}
 /* About Us Page CSS End */
 
 /* Terms and Conditions CSS Start */
@@ -449,25 +556,25 @@ section.disclaimer {
 }
 
 .terms-conditions h3,
-.terms-conditions h4
- {
+.terms-conditions h4 {
   margin-bottom: 5px;
 }
-.terms-conditions h1{
-  margin-bottom:15px;
-  text-align: center;
+.terms-conditions h1 {
+  margin-bottom: 15px;
   font-size: 30px;
 }
 
 .terms-conditions p {
   line-height: 1.3;
-  font-size: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
   color: #545556;
 }
 .terms-conditions ul li {
   list-style: disc;
   margin-left: 15px;
+}
+.terms-conditions-group {
+  margin-bottom: 13px;
 }
 /* Terms and Conditions CSS End */
 
@@ -475,25 +582,31 @@ section.disclaimer {
 .privacy {
   padding: 70px 10px;
 }
+.privacy-group {
+  margin-bottom: 15px;
+}
 .privacy-wrapper h1,
 .privacy-wrapper h3,
 .privacy-wrapper h4,
 .privacy-wrapper p {
   margin-bottom: 15px;
 }
+.privacy-wrapper h1 {
+  font-size: 30px;
+}
 .privacy-wrapper p {
-  line-height: 1.5;
+  line-height: 1.4;
   color: #545556;
 }
 .privacy-wrapper ul li {
   list-style-type: disc;
   margin-left: 15px;
+  word-break: break-word;
 }
 
+/* Privacy Policy CSS End */
 
-/* Privacy Policy CSS Start */
-
-/* Pages CSS Start here */
+/* Pages CSS End here */
 
 /* Slick Slider CSS Start */
 
@@ -506,8 +619,17 @@ section.disclaimer {
 .banner-slider-content {
   height: 600px;
 }
+.banner-slider-content img {
+  height: 100%;
+  object-fit: cover;
+}
+
 .pages-slider-content {
-  height: 450px;
+  height: 500px;
+  overflow: hidden;
+}
+.pages-banner-text h1 {
+  font-size: 50px;
 }
 
 .slick-prev {
@@ -522,7 +644,11 @@ section.disclaimer {
 .slick-next:before {
   opacity: 0;
 }
-
+.pages-slider-content img {                   /* For Pages */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 /* Slick Slider CSS End */
 
 .pages-card-image-btn {
@@ -535,7 +661,7 @@ section.disclaimer {
   width: 100%;
 }
 .pages-card-content {
-  padding: 15px;
+  padding: 20px 30px;
 }
 .pages-card-content > p,
 .pages-card-content > ul li {
@@ -559,7 +685,6 @@ section.disclaimer {
   margin-right: 5px;
   color: #000;
 }
-
 .pages-card-image-btn {
   overflow: hidden;
 }
@@ -578,7 +703,7 @@ section.disclaimer {
   border-radius: 10px;
   color: #545556;
 }
-.pages-card-image-link a {
+/* .pages-card-image-link a {
   display: inline-block;
   width: 20%;
   background-color: #36b67f;
@@ -586,67 +711,65 @@ section.disclaimer {
   border-radius: 10px;
   color: #fff;
   margin: 15px auto;
-}
-
-/* Card Setting CSS Start */
-.pages-card {
-  display: flex;
-  flex-wrap: wrap;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  margin-bottom: 45px;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.pages-card-image {
-  width: 40%;
-}
-
-/* .pages-card-image-content h2 {
-  margin-bottom: 30px;
-  font-size: 35px;
+  transition: 0.5s all ease-out;
 } */
-.pages-card-image-content ul li {
-  padding: 5px 0;
-}
-.pages-card-image-content ul {
-  margin-bottom: 30px;
-}
-.pages-card-content {
-  padding: 25px;
-  width: 60%;
-  font-size: 15px;
-}
-#page-card-review {
-  width: 50%;
-  height: 70px;
-  resize: none;
-  padding: 10px 15px;
-  outline: none;
-  border-radius: 5px;
-}
 
-/* Card Setting CSS End*/
-
-.about-us-group-wrapper {
-  display: flex;
-  margin-bottom: 30px;
-  border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  overflow: hidden;
-}
-.about-us-group-image {
-  width: 40%;
-}
-.about-us-group-image img {
-  height: 100%;
+#cookie-bar {
+  font-family: "Montserrat", sans-serif;
+  background: #36b67f;
+  display: block;
+  position: fixed;
+  bottom: 0px;
   width: 100%;
-  object-fit: cover;
+  left: 0px;
+  color: #fff;
+  width: 100%;
 }
-.about-us-group-content {
-  width: 60%;
-  padding: 20px 25px;
-  color: #545556;
+#cookie-bar p {
+  width: 85%;
+  float: left;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 24px;
+  color: #fff;
 }
-.about-us-group-wrapper:nth-child(even) {
-  flex-direction: row-reverse;
+#cookie-bar button {
+  float: right;
+  background: #cffbe2;
+  border: 1px solid #fff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 4px;
+}
+#cookie-bar a {
+  color: #fff;
+}
+#contentcookie {
+  padding: 20px 50px;
+  width: 80%;
+  margin: auto;
+}
+
+.clear {
+  clear: both;
+}
+
+@media (max-width: 767px) {
+  #cookie-bar p {
+    width: 100%;
+    font-size: 14px;
+  }
+  #cookie-bar button {
+    width: 100%;
+  }
+  #cookie-bar a {
+    color: #fff;
+  }
+  #contentcookie {
+    padding: 20px 0px;
+    width: 90%;
+    margin: auto;
+  }
 }
