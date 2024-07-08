@@ -48,7 +48,11 @@ $('.banner-slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+<<<<<<< HEAD
     autoplaySpeed: 3000,
+=======
+    autoplaySpeed: 2000,
+>>>>>>> 4d713d9444777b3ead835b1170426fc576d87b65
 });
 
 // Slick Slider JS End
