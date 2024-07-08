@@ -7,10 +7,10 @@
 @media screen and (max-width: 1200px) {
   /* .banner-slider-content {
     height: 650px;
-  }
+  }*/
   .pages-slider-content {
-    height: 450px;
-  } */
+    height: 350px;
+  }
   #counter .item {
     padding: 60px 15px;
   }
@@ -439,6 +439,12 @@
   }
   .logo img {
     width: 60px;
+  }
+  .menu-icon {
+    height: 25px;
+  }
+  .container {
+    padding: 0px 7px;
   }
 
   .home-expect-container h3 {
