@@ -42,7 +42,7 @@ img {
 
 .container {
   width: 100%;
-  max-width: 1140px;
+  max-width: 1170px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -52,7 +52,7 @@ img {
 /*Header CSS Start */
 
 .site-header .container {
-  max-width: 1140px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -76,7 +76,7 @@ img {
   font-size: 15px;
 }
 .main-navbar ul li a.active {
-  border-bottom: 2px solid #000;
+  border-bottom: 1px solid #000;
   /* color: #467e66; */
   color: #36b67f;
 }
