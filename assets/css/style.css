@@ -71,6 +71,24 @@ img {
   align-items: center;
 }
 
+.main-navbar {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.desktop-menu-option-hide {
+  display: none;
+}
+
+.social-icons .menu-social-icons i {
+  background-color: #545556;
+}
+
+.social-icons .menu-social-icons i:hover {
+  background: #36b67f;
+  transform: scale(1.2);
+}
+
 .main-navbar ul li {
   position: relative;
   /* For dropdown menu */
@@ -126,6 +144,7 @@ img {
   align-items: center;
   /* padding: 5px 0; */
 }
+
 .menu-icon {
   display: none;
   color: #000;
@@ -135,6 +154,7 @@ img {
   cursor: pointer;
   margin: auto 0;
 }
+
 /* .menu-icon i {
   display: inline-block; 
    margin: auto 0;
@@ -144,14 +164,15 @@ img {
 
 
 
-/* Dropdown CSS Start      In case dropdown is needed on the home page */
+/* Dropdown CSS Start*/
 
-/* .dropdown {
+.main-navbar .dropdown {
   background: #fff;
   display: flex;
   flex-direction: column;
   position: absolute;
   width: 200px;
+  gap: 0;
   left: -93%;
   opacity: 0;
   visibility: hidden;
@@ -159,19 +180,26 @@ img {
   margin: 0 auto;
   text-align: center;
 }
+
 .dropdown li {
   width: 100%;
   color: #fffcfc;
 }
+
 .dropdown li a {
   display: inline-block;
   color: #fffcfc;
   width: 100%;
 }
+
+.main-navbar .dropdown li a {
+  line-height: 25px;
+}
+
 .main-navbar ul li:hover .dropdown {
   opacity: 1;
   visibility: visible;
-} */
+}
 
 /* Dropdown CSS End*/
 
@@ -429,22 +457,18 @@ img {
   margin-bottom: 0;
 }
 
-.footer-icons {
+.footer-items h3 {
+  color: #000;
+}
+
+.social-icons {
   text-align: center;
   display: inline-block;
   margin-top: 15px;
   transition: 0.6s all ease-out;
 }
 
-.footer-icons i:hover {
-  transform: scale(1.4);
-}
-
-.footer-items h3 {
-  color: #000;
-}
-
-.footer-icons i {
+.social-icons i {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -453,6 +477,10 @@ img {
   background: #36b67f;
   line-height: 30px;
   margin: 0 5px;
+}
+
+.social-icons i:hover {
+  transform: scale(1.4);
 }
 
 .footer-links ul {
@@ -468,8 +496,9 @@ img {
   cursor: pointer;
   font-weight: 500;
 }
+
 .logo-bottom {
-    text-align: center;
+  text-align: center;
 }
 
 .logo-bottom img {
@@ -495,6 +524,7 @@ img {
   margin: 0px auto;
   text-align: center;
 }
+
 .commonpage-intro-container h1 {
   text-align: center;
   margin-bottom: 15px;
@@ -514,6 +544,7 @@ img {
 .page-card-content-c1 {
   margin: 20px 0;
 }
+
 .page-card-content-c1 p {
   margin-bottom: 5px;
   color: #545556;
@@ -522,6 +553,7 @@ img {
 .pages-cards {
   padding: 0px 0 50px 0;
 }
+
 .pages-card:nth-child(even) {
   flex-direction: row-reverse;
 }
@@ -552,15 +584,19 @@ img {
   border-radius: 10px;
   overflow: hidden;
 }
+
 .pages-card:last-child {
   margin-bottom: 0px;
 }
+
 .pages-card-image {
   width: 40%;
 }
+
 .after-cards-content {
   padding: 0 0 50px 0;
 }
+
 .after-cards-content-wrapper {
   color: #545556;
   font-size: 15px;
@@ -568,6 +604,7 @@ img {
   max-width: 1070px;
   margin: 0 auto;
 }
+
 .pages-card-image-content ul li {
   padding: 5px 0;
 }

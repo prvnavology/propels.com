@@ -114,6 +114,21 @@
     z-index: 50;
   }
 
+  .main-navbar {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .dropdown li {
+    display: none;
+  }
+
+  .main-navbar ul li a:hover {
+    color: #36b67f;
+    cursor: pointer;
+    background-color: transparent;
+  }
+
   ul.main-navbar li {
     padding: 20px auto;
   }
@@ -159,6 +174,10 @@
 
   .home-card {
     width: 45%;
+  }
+
+  .desktop-menu-option-hide {
+    display: block;
   }
 
   .banner-text h1 span {
@@ -568,7 +587,7 @@
     padding: 40px 5px;
   }
 
-  .footer-icons i {
+  .social-icons i {
     width: 25px;
     height: 25px;
     font-size: 13px;
@@ -595,7 +614,7 @@
   .pages-card-image-link a {
     width: 35%;
     font-size: 12px;
-    }
+  }
 
   .pages-card-image-link a:hover {
     width: 39%;
