@@ -630,7 +630,7 @@ img {
 
 /* About Us Page CSS Start */
 .about-us {
-  padding: 40px 1px;
+  padding: 50px 0px;
 }
 
 .about-us-wrapper h1 {
@@ -669,6 +669,9 @@ img {
   flex-wrap: wrap;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
+}
+.about-us-group-wrapper:last-child {
+  margin-bottom: 0;
 }
 
 .about-us-group-image {
