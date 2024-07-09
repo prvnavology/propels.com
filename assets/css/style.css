@@ -172,14 +172,13 @@ img {
   position: absolute;
   width: 200px;
   gap: 0;
-  left: -93%;
+  left: -60%;
   opacity: 0;
   visibility: hidden;
   transition: 0.7s opacity ease-in-out;
   margin: 0 auto;
   text-align: center;
 }
-
 .dropdown li {
   width: 100%;
   color: #fffcfc;
@@ -198,6 +197,9 @@ img {
 .main-navbar ul li:hover .dropdown {
   opacity: 1;
   visibility: visible;
+}
+.dropdown-arrow {
+  margin-left: 6px;
 }
 
 /* Dropdown CSS End*/

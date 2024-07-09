@@ -113,6 +113,7 @@
     flex-direction: column;
     z-index: 50;
   }
+  .menu-social-icons{display: none;}
 
   .main-navbar {
     flex-direction: column;
@@ -161,7 +162,11 @@
   .menuToggle .main-navbar {
     transform: translateX(0);
     z-index: 50;
+    justify-content: flex-start;
   }
+  .main-navbar .dropdown-arrow {
+    display: none;
+}
 
   .close-icon {
     position: absolute;
