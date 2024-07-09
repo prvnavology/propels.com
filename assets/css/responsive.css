@@ -255,6 +255,10 @@
     padding: 40px 0;
   }
 
+  .after-cards-content-wrapper {
+    font-size: 14px;
+  }
+
   .pages-card-image-link a {
     width: 31%;
   }
@@ -429,10 +433,14 @@
     font-size: 13px;
   }
 
+  .after-cards-content-wrapper {
+    font-size: 13px;
+  }
+
   .pages-card-image-link a {
     width: 30%;
     font-size: 13px;
-    padding: 7px 0;
+    padding: 8px 0;
   }
 
   .pages-card-image-link a:hover {
@@ -587,8 +595,7 @@
   .pages-card-image-link a {
     width: 35%;
     font-size: 12px;
-    padding: 7px 0px;
-  }
+    }
 
   .pages-card-image-link a:hover {
     width: 39%;
@@ -615,6 +622,10 @@
   }
 
   .page-card-content-c1 p {
+    font-size: 12px;
+  }
+
+  .after-cards-content-wrapper {
     font-size: 12px;
   }
 
