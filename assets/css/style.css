@@ -80,9 +80,9 @@ img {
   display: none;
 }
 
-.social-icons .menu-social-icons i {
+/* .social-icons .menu-social-icons i {
   background-color: #545556;
-}
+} */
 
 .social-icons .menu-social-icons i:hover {
   background: #36b67f;
@@ -496,6 +496,10 @@ img {
   color: #545556;
   cursor: pointer;
   font-weight: 500;
+}
+.footer-links ul li a:hover {
+  color: #36b67f;
+
 }
 
 .logo-bottom {
