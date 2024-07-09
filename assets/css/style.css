@@ -55,9 +55,9 @@ img {
 
 /*Header CSS Start */
 .logo img {
-  width: 80px;
+  width: 85px;
+  height: 90%;
 }
-
 .site-header .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -507,7 +507,8 @@ img {
 }
 
 .logo-bottom img {
-  width: 80px;
+  width: 85px;
+  height: 90%;
 }
 
 /* Footer CSS End */
