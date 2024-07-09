@@ -58,6 +58,7 @@ img {
   width: 85px;
   height: 90%;
 }
+
 .site-header .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -66,10 +67,11 @@ img {
 
 .main-navbar ul {
   display: flex;
-   gap: 10px;
+  gap: 10px;
   justify-content: center;
   align-items: center;
 }
+
 .main-navbar {
   display: flex;
   justify-content: space-evenly;
@@ -108,7 +110,11 @@ img {
 
 .main-navbar ul li a.active {
   border-bottom: 1px solid #000;
-  /* color: #467e66; */
+  color: #36b67f;
+}
+
+.footer .footer-links ul li a.active {
+  /* border-bottom: 1px solid #000; */
   color: #36b67f;
 }
 
@@ -123,6 +129,7 @@ img {
 .close-icon {
   display: none;
 }
+
 .site-header {
   position: sticky;
   top: 0;
@@ -154,6 +161,7 @@ img {
   margin: auto 0;
 }
 
+
 /* .menu-icon i {
   display: inline-block; 
    margin: auto 0;
@@ -179,6 +187,7 @@ img {
   margin: 0 auto;
   text-align: center;
 }
+
 .dropdown li {
   width: 100%;
   color: #fffcfc;
@@ -198,6 +207,7 @@ img {
   opacity: 1;
   visibility: visible;
 }
+
 .dropdown-arrow {
   margin-left: 6px;
 }
@@ -497,6 +507,7 @@ img {
   cursor: pointer;
   font-weight: 500;
 }
+
 .footer-links ul li a:hover {
   color: #36b67f;
 
@@ -677,18 +688,26 @@ img {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
 }
+
 .about-us-group-wrapper:last-child {
   margin-bottom: 0;
 }
 
 .about-us-group-image {
   width: 40%;
+  overflow: hidden;
+
 }
 
 .about-us-group-image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition: 0.5s all ease-in-out;
+}
+
+.about-us-group-image img:hover {
+  transform: scale(1.2);
 }
 
 .about-us-group-content {
@@ -787,10 +806,12 @@ img {
   height: 100%;
   object-fit: cover;
 }
+
 .pages-slider-content {
   height: 500px;
   overflow: hidden;
 }
+
 .pages-banner-text h1 {
   font-size: 50px;
 }
