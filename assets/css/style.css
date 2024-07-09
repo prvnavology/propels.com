@@ -66,14 +66,14 @@ img {
 
 .main-navbar ul {
   display: flex;
-  /* gap: 10px; */
+   gap: 10px;
   justify-content: center;
   align-items: center;
 }
-
 .main-navbar {
   display: flex;
   justify-content: space-evenly;
+  gap: 10px;
 }
 
 .desktop-menu-option-hide {
