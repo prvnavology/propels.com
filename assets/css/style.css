@@ -829,6 +829,9 @@ color: #36b67f;
   height: 100%;
   object-fit: cover;
 }
+.banner-slider{
+  overflow: hidden;
+}
 
 .banner-slider-content {
   height: 600px;
