@@ -195,10 +195,11 @@ img {
   color: #fffcfc;
 }
 
-.dropdown li a {
-  display: inline-block;
-  color: #fffcfc;
-  width: 100%;
+
+.dropdown  li a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main-navbar .dropdown li a {
