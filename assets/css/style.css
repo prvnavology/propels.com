@@ -56,7 +56,7 @@ img {
 /*Header CSS Start */
 .logo img {
   width: 85px;
-  height: 90%;
+  /* padding: 5px 0; */
 }
 
 .site-header .container {
@@ -102,7 +102,7 @@ img {
   display: inline-block;
   font-weight: 500;
   color: #545556;
-  line-height: 35px;
+  line-height: 45px;
   transition: 0.5sec all ease-in;
   font-size: 15px;
   text-align: center;
@@ -687,6 +687,13 @@ img {
   flex-wrap: wrap;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
+}
+.about-us-group-wrapper a{font-weight: 700;}
+
+.about-us-group-wrapper a:hover{
+cursor: pointer;
+display: inline-block;
+color: rgba(23, 23, 153, 0.799);
 }
 
 .about-us-group-wrapper:last-child {

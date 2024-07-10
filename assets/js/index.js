@@ -55,7 +55,7 @@ $(document).ready(function(){
 
 // Slick Slider JS End
 
-//Cookies JS Start
+// //Cookies JS Start
 function SetCookie(cookieName, cookieValue, nDays) {
   "use strict";
   var today = new Date();
@@ -103,4 +103,4 @@ $(document).ready(function (e) {
     jQuery("#cookie-bar").hide();
   }
 });
-//Cookies JS Start
+// //Cookies JS Start
