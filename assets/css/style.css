@@ -106,24 +106,20 @@ img {
   transition: 0.5sec all ease-in;
   font-size: 15px;
   text-align: center;
+  cursor: pointer;
 }
-
 .main-navbar ul li a.active {
   border-bottom: 1px solid #000;
   color: #36b67f;
 }
 
 .footer .footer-links ul li a.active {
-  /* border-bottom: 1px solid #000; */
   color: #36b67f;
 }
 
 .main-navbar ul li a:hover {
-  /* color: #467e66; */
   color: #fff;
-  cursor: pointer;
-  /* background-color: #c7fcec; */
-  background: #36b67f;
+    background: #36b67f;
 }
 
 .close-icon {
@@ -456,11 +452,17 @@ img {
   /* background: linear-gradient(to bottom,#c7fcec, #36b67f); */
   padding: 50px 5px;
 }
+.footer .container{
+  max-width: 1100px;
+  margin-right: auto;
+}
 
 .footer-wrapper {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
+  max-width: 800px;
+  margin-right: auto;
 }
 
 .footer-items:last-child {
@@ -469,7 +471,11 @@ img {
 }
 
 .footer-items h3 {
-  color: #000;
+ color:#36b67f;
+}
+.footer-items h3 i {
+  margin-left: 5px;
+  
 }
 
 .social-icons {
@@ -487,7 +493,7 @@ img {
   color: #fffcfc;
   background: #36b67f;
   line-height: 30px;
-  margin: 0 5px;
+  margin: 0 1px;
 }
 
 .social-icons i:hover {
@@ -512,6 +518,17 @@ img {
   color: #36b67f;
 
 }
+.footer-mail p{
+color: #545556;
+margin-top: 15px;
+}
+.footer-mail a {
+  cursor: pointer;
+}
+.footer-mail a:hover {
+  color: #36b67f;
+ }
+
 
 .logo-bottom {
   text-align: center;
@@ -791,6 +808,14 @@ color: rgba(23, 23, 153, 0.799);
   margin-left: 15px;
   word-break: break-word;
 }
+.privacy-wrapper .heading-like {
+  margin-right: 5px;
+}
+.privacy-wrapper a:hover{
+cursor: pointer;
+color: #36b67f;
+}
+
 
 /* Privacy Policy CSS End */
 
@@ -942,6 +967,10 @@ color: rgba(23, 23, 153, 0.799);
   margin-top: 5px;
   border-radius: 4px;
   cursor: pointer;
+}
+#cookie-bar button:hover {
+  color: #00af63;
+  background: #fff;
 }
 
 #cookie-bar a {
