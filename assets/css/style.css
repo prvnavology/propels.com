@@ -204,6 +204,7 @@ img {
 
 .main-navbar .dropdown li a {
   line-height: 25px;
+  width:100%;
 }
 
 .main-navbar ul li:hover .dropdown {
