@@ -501,10 +501,11 @@ img {
   background: #36b67f;
   line-height: 30px;
   margin: 0 1px;
+  transition: 0.6s all ease-in-out;
 }
 
 .social-icons i:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
 }
 
 .footer-links ul {
