@@ -62,7 +62,8 @@ img {
   vertical-align: middle;
   padding: 5px 0;
 }
-.logo a{
+
+.logo a {
   display: inline-block;
   height: 100%;
 }
@@ -116,6 +117,7 @@ img {
   text-align: center;
   cursor: pointer;
 }
+
 .main-navbar ul li a.active {
   color: #36b67f;
 }
@@ -126,7 +128,7 @@ img {
 
 .main-navbar ul li a:hover {
   color: #fff;
-    background: #36b67f;
+  background: #36b67f;
 }
 
 .close-icon {
@@ -196,7 +198,7 @@ img {
 }
 
 
-.dropdown  li a {
+.dropdown li a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -204,7 +206,7 @@ img {
 
 .main-navbar .dropdown li a {
   line-height: 25px;
-  width:100%;
+  width: 100%;
 }
 
 .main-navbar ul li:hover .dropdown {
@@ -460,7 +462,8 @@ img {
   /* background: linear-gradient(to bottom,#c7fcec, #36b67f); */
   padding: 50px 5px;
 }
-.footer .container{
+
+.footer .container {
   max-width: 1100px;
   margin-right: auto;
 }
@@ -479,11 +482,12 @@ img {
 }
 
 .footer-items h3 {
- color:#36b67f;
+  color: #36b67f;
 }
+
 .footer-items h3 i {
   margin-left: 5px;
-  
+
 }
 
 .social-icons {
@@ -527,18 +531,22 @@ img {
   color: #36b67f;
 
 }
-.footer-mail p{
-color: #545556;
-margin-top: 15px;
+
+.footer-mail p {
+  color: #545556;
+  margin-top: 15px;
 }
+
 .footer-mail a {
   cursor: pointer;
   font-size: 17px;
-  
+
 }
+
 .footer-mail a:hover {
   color: #36b67f;
- }
+}
+
 .logo-bottom {
   text-align: center;
 }
@@ -548,6 +556,7 @@ margin-top: 15px;
   height: 90%;
   margin-bottom: 10px;
 }
+
 /* Footer CSS End */
 
 /* Copyright Section CSS Start */
@@ -670,20 +679,92 @@ section.pages-cards {
 }
 
 .pages-card-image {
-  height: 220px;
+  height: 270px;
   overflow: hidden;
 }
+
 
 .pages-card-image img {
   height: 100%;
   width: 100%;
   object-fit: cover;
+  transition: 0.7s all ease-in-out;
+}
+
+.pages-card-image img:hover{
+  transform: scale(1.2)
+  }
+
+.location-icon {
+  color: #00af63;
+  margin-right: 5px;
 
 }
-.location-icon{
-color: #00af63;
-margin-right: 5px;
 
+.brand-info-wrapper h2 {
+  margin-bottom: 20px;
+}
+
+.brand-info-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 50px 10px;
+}
+
+.brand-info-wrapper p {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.page-card-content-c1 {
+  margin: 20px 0;
+}
+
+.page-card-content-c1 p {
+  margin-bottom: 5px;
+  color: #545556;
+}
+
+.page-card-content-c1 ul li {
+  list-style: disc;
+  margin-bottom: 3px;
+  margin-left: 17px;
+  font-weight: 500;
+  color: #545556;
+}
+
+.brand-info-wrapper p {
+  color: #545556;
+}
+
+.pages-cards {
+  padding: 0px 0 50px 0;
+}
+
+.pages-card-image-link a {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  background-color: #36b67f;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 15px auto;
+  font-weight: 600;
+  transition: 0.5s all ease-out;
+}
+
+.pages-card-image-link a:hover {
+  width: 21%;
+  background-color: #2cda8e;
+}
+
+.pages-card-image-content ul li {
+  padding: 5px 0;
+}
+
+.pages-card-image-content ul {
+  margin-bottom: 30px;
 }
 
 
@@ -774,12 +855,15 @@ margin-right: 5px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   overflow: hidden;
 }
-.about-us-group-wrapper a{font-weight: 700;}
 
-.about-us-group-wrapper a:hover{
-cursor: pointer;
-display: inline-block;
-color: rgba(23, 23, 153, 0.799);
+.about-us-group-wrapper a {
+  font-weight: 700;
+}
+
+.about-us-group-wrapper a:hover {
+  cursor: pointer;
+  display: inline-block;
+  color: rgba(23, 23, 153, 0.799);
 }
 
 .about-us-group-wrapper:last-child {
@@ -877,12 +961,14 @@ color: rgba(23, 23, 153, 0.799);
   margin-left: 15px;
   word-break: break-word;
 }
+
 .privacy-wrapper .heading-like {
   margin-right: 5px;
 }
-.privacy-wrapper a:hover{
-cursor: pointer;
-color: #36b67f;
+
+.privacy-wrapper a:hover {
+  cursor: pointer;
+  color: #36b67f;
 }
 
 
@@ -898,7 +984,8 @@ color: #36b67f;
   height: 100%;
   object-fit: cover;
 }
-.banner-slider{
+
+.banner-slider {
   overflow: hidden;
 }
 
@@ -1040,6 +1127,7 @@ color: #36b67f;
   border-radius: 4px;
   cursor: pointer;
 }
+
 #cookie-bar button:hover {
   color: #00af63;
   background: #fff;
@@ -1059,28 +1147,32 @@ color: #36b67f;
   clear: both;
 }
 
-.main-navbar > ul >  li > a::before {
+.main-navbar>ul>li>a::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 2px;
   bottom: 0;
-  background:#36b67f;
+  background: #36b67f;
   left: 0;
   opacity: 0;
 }
-.main-navbar > ul > li > a.active::before {
+
+.main-navbar>ul>li>a.active::before {
   opacity: 1;
 }
+
 .main-navbar ul li {
   position: relative;
   height: 100%;
 }
+
 .main-navbar ul li a {
   display: inline-flex;
   align-items: center;
   height: 100%;
 }
+
 @media (max-width: 767px) {
   #cookie-bar p {
     width: 100%;
