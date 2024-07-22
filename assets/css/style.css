@@ -782,12 +782,17 @@ section.pages-cards {
 }
 
 .after-cards-content-wrapper {
-  color: #545556;
-  font-size: 15px;
-  text-align: center;
-  max-width: 1070px;
+   max-width: 1100px;
   margin: 0 auto;
 }
+.after-cards-content-wrapper p {
+  max-width: 1040px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 15px;
+  color: #545556;
+}
+
 
 /* .pages-card-image-content ul li {
   padding: 5px 0;
