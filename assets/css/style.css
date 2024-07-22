@@ -553,7 +553,7 @@ img {
   font-size: 15px;
 }
 
-.pages-card-content a {
+/* .pages-card-content a {
   display: inline-block;
   font-weight: 600;
 }
@@ -608,7 +608,61 @@ img {
 
 .pages-card-image {
   width: 40%;
+} */
+section.pages-cards {
+  padding: 0 0 50px 0;
 }
+
+.pages-card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  flex-wrap: wrap;
+}
+
+.pages-card {
+  width: 32%;
+  margin-bottom: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.pages-card-content {
+  padding: 10px;
+}
+
+.pages-card-content h3 {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.pages-card-content p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.pages-card-image {
+  height: 220px;
+  overflow: hidden;
+}
+
+.pages-card-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 .after-cards-content {
   padding: 0 0 50px 0;
@@ -622,7 +676,7 @@ img {
   margin: 0 auto;
 }
 
-.pages-card-image-content ul li {
+/* .pages-card-image-content ul li {
   padding: 5px 0;
 }
 
@@ -634,7 +688,7 @@ img {
   padding: 25px;
   width: 60%;
   font-size: 15px;
-}
+} */
 
 .page-card-review {
   width: 70%;
@@ -840,7 +894,7 @@ img {
 
 /* Slick Slider CSS End */
 
-.pages-card-image-btn {
+/* .pages-card-image-btn {
   height: 100%;
   width: 100%;
 }
@@ -876,7 +930,7 @@ img {
 }
 
 .pages-card-content .heading-like {
-  /* Only for CSS */
+
   margin-right: 5px;
   color: #000;
 }
@@ -891,7 +945,7 @@ img {
 
 .pages-card-image img:hover {
   transform: scale(1.1);
-}
+} */
 
 /* .pages-card-image-link a {
   display: inline-block;
