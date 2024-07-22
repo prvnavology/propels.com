@@ -70,6 +70,11 @@
   .home-expect-container ul li {
     font-size: 14px;
   }
+  .footer-mail a {
+    cursor: pointer;
+    font-size: 16px;
+    
+  }
 
   .disclaimer-wrapper p {
     font-size: 14px;
@@ -250,6 +255,11 @@
     font-size: 13px;
     font-weight: 600;
   }
+  .footer-mail a {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+}
 
   .home-expect-container p,
   .home-expect-container ul li {
@@ -530,8 +540,7 @@
   .banner-text h1 span {
     font-size: 30px;
   }
-
-  .banner-text h1 {
+    .banner-text h1 {
     font-size: 18px;
   }
 
@@ -614,6 +623,12 @@
     font-weight: 600;
     font-size: 12px;
   }
+ 
+  .footer-mail p {
+    color: #545556;
+    margin-top: 7px;
+    font-weight: 600;
+}
 
   .copyright p {
     font-size: 13px;
