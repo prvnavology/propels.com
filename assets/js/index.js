@@ -94,7 +94,7 @@ function AcceptCookies() {
 }
 $(document).ready(function (e) {
   var toTop = $(
-    "<div id='cookie-bar'><div id='contentcookie'><p>We use cookies and similar technologies to recognize your repeat visits and preferences, to measure the effectiveness of campaigns, and improve our websites. For settings and more information about cookies, view our <a href='#'>Cookie Policy</a>. By clicking “I accept” on this banner or using our site, you consent to the use of cookies.</p><button id='Cookie' tabindex=1 onclick='AcceptCookies();'>I accept </button><div class='clear'></div></div></div>"
+    "<div id='cookie-bar'><div id='contentcookie'><p>We use cookies and similar technologies to recognize your repeat visits and preferences, to measure the effectiveness of campaigns, and improve our websites. For settings and more information about cookies, view our <a href='#'>Cookie Policy</a>. By clicking “I accept” on this banner or using our site, you consent to the use of cookies.</p><button id='Cookie' tabindex=1 onclick='AcceptCookies();'>accept </button><div class='clear'></div></div></div>"
   ).appendTo("body");
   if (!ReadCookie("sgCookies")) {
     //If the cookie has not been set
