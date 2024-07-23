@@ -91,13 +91,9 @@ img {
   display: none;
 }
 
-/* .social-icons .menu-social-icons i {
-  background-color: #545556;
-} */
-
 .social-icons .menu-social-icons i:hover {
   background: #36b67f;
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .main-navbar ul li {
@@ -517,7 +513,7 @@ img {
 }
 
 .social-icons i:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .footer-links ul {
