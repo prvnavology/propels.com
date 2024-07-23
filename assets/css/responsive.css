@@ -86,6 +86,12 @@
     font-size: 15px;
     font-weight: 500;
   }
+  .pages-card-wrapper {
+     padding: 0px 10px;
+}
+  .pages-card-image {
+    height: 220px;
+}
 
   .pages-card-content>p,
   .pages-card-content>ul li {
@@ -279,6 +285,23 @@
   .pages-card-items {
     width: 100%;
   }
+  .pages-card-wrapper {
+      padding: 0px 5px;
+   }
+  .pages-card {
+    width: 48%;
+  }
+  .pages-card-content h3 {
+    max-width: 250px;
+    margin: 8px auto;
+}
+.pages-card-content p {
+  font-size: 15px;
+}
+.pages-card-content {
+  padding: 5px;
+}
+
 
   .pages-card-image img {
     height: 300px;
@@ -449,6 +472,24 @@
   .commonpage-intro-container p {
     font-size: 13px;
   }
+  .pages-card-wrapper {
+    padding: 0px 5px;
+  }
+ 
+  .pages-card-image {
+    height: 210px;
+ }
+ .pages-card-content h3 {
+  font-size: 15px;
+  max-width: 200px;
+  margin: 5px auto;
+}
+.pages-card-content p {
+  font-size: 14px;
+}
+
+
+
 
   .pages-card-image img {
     height: 240px;
@@ -633,10 +674,17 @@
   .copyright p {
     font-size: 13px;
   }
-
-  .pages-card-image img {
-    height: 180px;
+  .pages-card {
+    width: 100%;
   }
+  .pages-card-image {
+    height: 200px;
+}
+.pages-card-content h3 {
+  max-width: 200px;
+  margin: 10px auto;
+}
+ 
 
   #page-card-review {
     width: 90%;
