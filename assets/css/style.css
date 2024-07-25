@@ -1179,8 +1179,7 @@ section.pages-cards {
 
 @media (max-width: 767px) {
   #cookie-bar p {
-    width: 100%;
-    font-size: 14px;
+      font-size: 14px;
   }
 
   #cookie-bar button {
@@ -1191,13 +1190,11 @@ section.pages-cards {
   #cookie-bar a {
     color: #fff;
   }
-
   #contentcookie {
     padding: 20px 0px;
     width: 90%;
     margin: auto;
   }
-
   #Cookie {
     cursor: pointer;
   }
