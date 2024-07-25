@@ -1183,8 +1183,7 @@ section.pages-cards {
   }
 
   #cookie-bar button {
-    width: 100%;
-    cursor: pointer;
+     cursor: pointer;
   }
 
   #cookie-bar a {
