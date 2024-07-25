@@ -1150,7 +1150,6 @@ section.pages-cards {
 .clear {
   clear: both;
 }
-
 .main-navbar>ul>li>a::before {
   content: "";
   position: absolute;
